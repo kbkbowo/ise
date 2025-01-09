@@ -1,0 +1,49 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <include file="../objects/assets/box_dependencies.xml"/>
+    <include file="../objects/assets/xyz_base_dependencies.xml"/>
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+
+
+        <body name="boxbody" euler="0.0 0.0 1.57">
+            <geom material="box_blue" pos="0 -0.095 0.03" size="0.1 0.005 0.03" type="box" mass=".03"/>
+            <geom material="box_blue" pos="0 0.095 0.03" size="0.1 0.005 0.03" type="box" mass=".03"/>
+            <geom material="box_blue" pos="0.095 0 0.03" size="0.005 0.09 0.03" type="box" mass=".03"/>
+            <geom material="box_blue" pos="-0.095 0 0.03" size="0.005 0.09 0.03" type="box" mass=".03"/>
+            <geom material="box_blue" pos="0 0 0.005" size="0.1 0.1 0.005" type="box" mass=".03"/>
+        </body>
+
+        <!-- <body name="boxbody" euler="0.0 0.0 -1.57">
+            <geom material="box_wood" pos="0 -0.095 0.03" size="0.1 0.005 0.03" type="box" mass=".03"/>
+            <geom material="box_wood" pos="0 0.095 0.03" size="0.1 0.005 0.03" type="box" mass=".03"/>
+            <geom material="box_wood" pos="0.095 0 0.03" size="0.005 0.09 0.03" type="box" mass=".03"/>
+            <geom material="box_wood" pos="-0.095 0 0.03" size="0.005 0.09 0.03" type="box" mass=".03"/>
+            <geom material="box_wood" pos="0 0 0.005" size="0.1 0.1 0.005" type="box" mass=".03"/>
+        </body> -->
+
+        <body name="top_link" euler="0.0 0.0 1.57">
+            <freejoint/>
+            <body name="boxbodytop" pos="0 0 0.040">
+                <geom material="box_blue" pos="0.0 -0.0 0.010" size="0.123 0.123 0.005" type="box" mass=".02"/>
+                <geom material="box_blue" pos="0.120 -0.0 -0.015" size="0.006 0.123 0.020" type="box" mass=".00"/>
+                <geom material="box_blue" pos="0.0 -0.120 -0.015" size="0.123 0.006 0.020" type="box" mass=".00"/>
+                <geom material="box_blue" pos="-0.120 -0.0 -0.015" size="0.006 0.123 0.020" type="box" mass=".00"/>
+                <geom material="box_blue" pos="0.0 0.120 -0.015" size="0.123 0.006 0.020" type="box" mass=".00"/>
+                <geom material="box_gray" euler="1.57 0.0 0.0" pos="0 0 0.082" size="0.008 0.05" type="capsule" mass=".05"/>
+                <geom material="box_gray" pos="0 0.05 0.043" size="0.008 0.035" type="capsule" mass=".05"/>
+                <geom material="box_gray" pos="0 -0.05 0.043" size="0.008 0.035" type="capsule" mass=".05"/>
+            </body>
+        </body>
+        <!-- <site name="goal" pos="0. 0.7 0.05" size="0.02"
+              rgba="0 0.8 0 1"/> -->
+    </worldbody>
+
+    <actuator>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>

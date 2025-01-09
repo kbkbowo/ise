@@ -1,0 +1,40 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <include file="../objects/assets/block_dependencies.xml"/>
+    <include file="../objects/assets/xyz_base_dependencies.xml"/>
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+        <body name="obj" pos="0 0 0">
+            <joint name="objjoint" type="free" limited='false' damping="0." armature="0."/>
+            <inertial pos="0 0 0.2" mass="0.15" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/>
+                <!-- <geom name="objGeomX" type="box" pos="0 0 0.2"
+                    size="0.0001 0.0001 0.005" rgba="0 1 0 0"
+                    conaffinity="1" condim="1"
+                /> -->
+                <body name="objTop" pos="0 0 0.4">
+                    <!-- <geom name="objGeomY" type="box" pos="0 0 0.2"
+                        size="0.0001 0.0001 0.005" rgba="0.75 0.75 0.85 1"
+                        conaffinity="1" condim="1"
+                    /> -->
+                </body>
+                <geom name="objGeom" type="box" pos="0 0 0.4"
+                    size="0.0001 0.0001 0.005" rgba="0 0 1 0"
+                    conaffinity="1" condim="1"
+                />
+                <geom name="objGeomA" type="box" pos="0 0 0.2"
+                    size="0.02 0.02 0.2" rgba="0.75 0.75 0.85 1"
+                    conaffinity="1" condim="1"
+                />
+        </body>
+        <site name="goal" pos="0.1 0.8 0.02" size="0.02" rgba="0 0.8 0 0"/>
+    </worldbody>
+
+    <actuator>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>
+        
