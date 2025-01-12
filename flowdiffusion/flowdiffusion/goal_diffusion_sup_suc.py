@@ -486,7 +486,8 @@ class GoalGaussianDiffusion(nn.Module):
         # task_embed = self.text_encoder(goal).last_hidden_state
         model_output = self.model(torch.cat([x, x_cond], dim=1), t, task_embed, supp, suc)
         if guidance_weight > 0.0:
-            uncond_model_output = self.model(torch.cat([x, x_cond], dim=1), t, task_embed*0.0, supp, suc)
+            supp = [None for s in supp]
+            uncond_model_output = self.model(torch.cat([x, x_cond], dim=1), t, task_embed, supp, suc)
 
         maybe_clip = partial(torch.clamp, min = -1., max = 1.) if clip_x_start else identity
 
@@ -561,7 +562,7 @@ class GoalGaussianDiffusion(nn.Module):
 
         x_start = None
 
-        for t in tqdm(reversed(range(0, self.num_timesteps)), desc = 'sampling loop time step', total = self.num_timesteps):
+        for t in tqdm(reversed(range(0, self.num_timesteps)), desc = 'sampling loop time step', total = self.num_timesteps, disable=True):
             # self_cond = x_start if self.self_condition else None
             img, x_start = self.p_sample(img, t, x_cond, task_embed, supp, suc, guidance_weight=guidance_weight)
             imgs.append(img)
@@ -584,7 +585,7 @@ class GoalGaussianDiffusion(nn.Module):
 
         x_start = None
 
-        for time, time_next in tqdm(time_pairs, desc = 'sampling loop time step'):
+        for time, time_next in tqdm(time_pairs, desc = 'sampling loop time step', disable=True):
             time_cond = torch.full((batch,), time, device = device, dtype = torch.long)
             # self_cond = x_start if self.self_condition else None
             pred_noise, x_start, *_ = self.model_predictions(img, time_cond, x_cond, task_embed, supp, suc, clip_x_start = False, rederive_pred_noise = True, guidance_weight=guidance_weight)

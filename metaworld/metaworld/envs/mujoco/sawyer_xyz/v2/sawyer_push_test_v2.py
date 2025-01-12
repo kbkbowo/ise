@@ -67,8 +67,8 @@ class SawyerPushTestEnvV2(SawyerXYZEnv):
         self.hand_init_pos = self.init_config['hand_init_pos']
 
         self.action_space = Box(
-            np.array([-1, -1, -1, -1]),
-            np.array([+1, +1, +1, +1]),
+            np.array([-1, -1, -1, -1]).astype(np.float64),
+            np.array([+1, +1, +1, +1]).astype(np.float64),
         )
 
         self._random_reset_space = Box(

@@ -1,3 +1,5 @@
+import warnings
+warnings.filterwarnings("ignore")
 from unimatch.unimatch import UniMatch
 from argparse import ArgumentParser
 import torch
@@ -83,7 +85,7 @@ def get_flow_model():
                         reg_refine=args.reg_refine,
                         task=args.task).to(DEVICE)
 
-    checkpoint = torch.load(args.model, map_location=DEVICE)
+    checkpoint = torch.load(args.model, map_location=DEVICE, weights_only=True)
     model.load_state_dict(checkpoint['model'])
 
     model.to(DEVICE)
@@ -272,10 +274,10 @@ def upsample(video_32):
     except: 
         print("upsample model not found, loading...")
         # load model and make it global
-        upsample_model_path = "/tmp2/pochenko/temp/mw_temp/pretrained/model_15.pth"
+        upsample_model_path = "./pretrained/model_15.pth"
         upsample_model = UpsampleModel().cuda()
         try:
-            upsample_model.load_state_dict(torch.load(upsample_model_path))
+            upsample_model.load_state_dict(torch.load(upsample_model_path, weights_only=True))
         except: # need to unwrap the model
             class dummy_model(torch.nn.Module):
                 def __init__(self, model):
@@ -284,7 +286,7 @@ def upsample(video_32):
                 def forward(self, x):
                     return self.module(x)
             upsample_model = dummy_model(upsample_model)
-            upsample_model.load_state_dict(torch.load(upsample_model_path))
+            upsample_model.load_state_dict(torch.load(upsample_model_path, weights_only=True))
             upsample_model = upsample_model.module
         upsample_model.eval()
         with torch.no_grad():
@@ -302,7 +304,7 @@ def get_env(task, seed, identity):
         env = env_dict[task](seed=seed)
     elif task in ['push-alphabet-v2-goal-observable']:
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
-        env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/pochenko/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+        env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
     else:
         raise NotImplementedError
     return env
@@ -312,13 +314,17 @@ class RejectionSampler:
             self, 
             dist_metric="l2", 
             agg_metric="min", 
-            cache_plans=False
+            cache_plans=False,
+            enc_method='dinov2'
         ):
         self.negatives = []
         self.cached_plans = []
         self.dist_metric = dist_metric
+        # self.dist_metric = 'enc'
         self.agg_metric = agg_metric
         self.cache_plans = cache_plans
+        self.feat_encoder = FeatEncoder(enc_method)
+        self.feat_dim = method2dim[enc_method]
     
     def reset(self):
         self.negatives = []
@@ -333,13 +339,38 @@ class RejectionSampler:
         else:
             self.cached_plans = plans
 
+    def encode_video(self, video):
+        print("ENCODE_VIDEO_REJECTION", video.shape)
+        return torch.from_numpy(self.feat_encoder(video)).cuda()
+
     def calc_dist(self, a_s, b_s):
         if self.dist_metric == "l2":
             # pairwise squared distance
+            
             a_s = torch.from_numpy(rearrange(a_s, 'n f c h w -> 1 n (f c h w)')).float()
             b_s = torch.from_numpy(rearrange(b_s, 'm f c h w -> 1 m (f c h w)')).float()
+            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
             dist = torch.cdist(a_s, b_s, p=2)
+            print("DIST_REJECTION", dist.shape)
             return dist
+        elif self.dist_metric == 'enc':
+            
+            a_s = rearrange(a_s, 'n f c h w -> n f c h w')
+            b_s = rearrange(b_s, 'm f c h w -> m f c h w')
+            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
+            embedding_a = torch.stack([self.encode_video(a) for a in a_s]).detach().cpu()
+            embedding_b = torch.stack([self.encode_video(b) for b in b_s]).detach().cpu()
+            print(embedding_a.shape, embedding_b.shape)
+            embedding_a_norm = embedding_a / torch.norm(embedding_a, dim=1, keepdim=True)
+            embedding_b_norm = embedding_b / torch.norm(embedding_b, dim=1, keepdim=True)
+            similarity = torch.matmul(embedding_a_norm, embedding_b_norm.transpose(0, 1)).unsqueeze(0)
+            # dist = [torch.nn.functional.cosine_similarity(embedding_a, emb_b, dim=0) for emb_b in embedding_b]
+            # dist = torch.stack(dist).unsqueeze(0) * (-1)
+            # print(dist.shape)
+            dist = 1 - similarity
+            print("DIST_REJECTION", dist.shape)
+            return dist
+        
         else:
             raise NotImplementedError
 
@@ -357,8 +388,10 @@ class RejectionSampler:
             return self.cached_plans[0]
         print("Selecting best plan...")
         dists = self.calc_dist(self.negatives, self.cached_plans)
+        print(dists.shape, dists)
         agg_dists = self.aggregate(dists)
-        return self.cached_plans[np.argmax(agg_dists).item()]
+        print(len(self.cached_plans), agg_dists, np.argmax(agg_dists.values).item())
+        return self.cached_plans[np.argmax(agg_dists.values).item()]
 
 # class CLIPRetrievalModule():
 #     def __init__(self, training_seeds=10, max_training_offset=36, on=True):
@@ -434,13 +467,13 @@ class RejectionSampler:
 #                 T.Resize((224, 224))
 #             ])
 #             self.model, self.preprocess = clip.load("ViT-B/32", device='cuda')
-#             trainer = get_video_model_diffae_feat_suc(ckpt_dir="/tmp2/pochenko/test_time_adaptation/ckpts/0827_implicit_ret/", timestep=25)
+#             trainer = get_video_model_diffae_feat_suc(ckpt_dir="/tmp2/seanfu/test_time_adaptation/ckpts/0827_implicit_ret/", timestep=25)
 #             self.diffusion = trainer.ema.ema_model # trainer->diffusion->unet
 #             trainer.model.cpu()
 #             self.diffusion.eval()
 #             self.text_feat = trainer.encode_batch_text([""]).detach()
 #             # preproces features
-#             with open("/tmp2/pochenko/temp/mw_temp/extrated_features/clip/all_feats.npy", "rb") as f:
+#             with open("/tmp2/seanfu/temp/mw_temp/extrated_features/clip/all_feats.npy", "rb") as f:
 #                 all_dict = np.load(f, allow_pickle=True).item()
 
 #             filtered_dict = []
@@ -514,12 +547,12 @@ class RejectionSampler:
 #         self.video = video
 
 class ExplicitRetrievalModule():
-    def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip"):
+    def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip", guidance=0.0):
         self.prob_based = prob_based
         self.temperature = temperature
         self.pca = pca
         self.enc_method = enc_method
-        
+        self.guidance = guidance
         # import clip
         self.first_frame_transform = T.Compose([
             T.CenterCrop(128),
@@ -536,7 +569,7 @@ class ExplicitRetrievalModule():
 
         if on:
             # preproces features
-            with open(f"/tmp2/pochenko/temp/mw_temp/faucet_dataset/down_dataset/{task_name}/{enc_method}/all_feats.npy", "rb") as f:
+            with open(f"./down_dataset/{task_name}/{enc_method}/all_feats.npy", "rb") as f:
                 all_dict = np.load(f, allow_pickle=True).item()
 
             filtered_dict = []
@@ -578,7 +611,7 @@ class ExplicitRetrievalModule():
             self.text_feat = trainer.encode_batch_text([task_name.replace("_", " ")]).detach()
         except Exception as e:
             print(e)
-            trainer = get_video_model_diffae_feat_suc(ckpt_dir=f"/tmp2/pochenko/temp/mw_temp/pretrained/ckpts/{enc_method}", milestone=30, timestep=25, video_enc_dim=self.feat_dim)
+            trainer = get_video_model_diffae_feat_suc(ckpt_dir=f"./pretrained/ckpts/{enc_method}", milestone=30, timestep=25, video_enc_dim=self.feat_dim)
             self.diffusion = trainer.ema.ema_model # trainer->diffusion->unet
             trainer.model.cpu()
             self.diffusion.eval()
@@ -602,6 +635,7 @@ class ExplicitRetrievalModule():
         # with torch.no_grad():
         #     image_features = self.model.encode_image(images)
         # return image_features.flatten()
+        print("ENCODE_VIDEO", video.shape)
         return torch.from_numpy(self.feat_encoder(video)).cuda()
 
     def refine_feat(self, interaction_video, feat, refine_steps=40):
@@ -647,7 +681,7 @@ class ExplicitRetrievalModule():
             nearest_idx = torch.argsort(dist)[:n]
         else:
             # calculate cosine similarity similarity    
-            if self.enc_method in ["clip", "custom"]:
+            if self.enc_method in ["clip", "custom", "dinov2"]:
                 sim = torch.nn.functional.cosine_similarity(feat.unsqueeze(0), self.filtered_feats, dim=1)
             else: # euclidean distance
                 sim = -torch.cdist(feat.unsqueeze(0), self.filtered_feats, p=2).squeeze()
@@ -664,7 +698,9 @@ class ExplicitRetrievalModule():
         else:
             print("Retrieving nearest plans...")
             video = sample_n_frames(self.video, f)
+            print("VIDEO SHAPE", video.shape)
             feat = self.encode_video(video).float() # [1 1 5120]
+            
 
             if refine_from_scratch:
                 feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
@@ -685,7 +721,8 @@ class ExplicitRetrievalModule():
                 self.text_feat.expand(1, -1, -1).cuda(),
                 feat,
                 torch.tensor([1]).cuda().unsqueeze(0),
-                batch_size=1
+                batch_size=1,
+                guidance_weight=self.guidance
             )
             pred_frames = rearrange(generation, '1 (f c) h w -> c f h w', c=3).cpu()
             pred_video = torch.cat([first_frame.unsqueeze(1), pred_frames], dim=1)
@@ -711,7 +748,7 @@ class ExplicitRetrievalModule():
 # image_features = retrieval_module.generate_n_sample(video)
 # print(image_features[0].shape)
 # print(len(image_features))
-def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, temperature, pca, task_name, encode_method, save_video, refine_steps, refine_from_scratch):
+def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, temperature, pca, task_name, encode_method, save_video, refine_steps, refine_from_scratch, dist_metric, guidance):
     # MAX_TRIALS = 16
     MAX_TRIALS = max_trials(task_name)
     resolution = (640, 480)
@@ -760,7 +797,7 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
     elif task_name == 'push_alphabet':
         task = 'push-alphabet-v2-goal-observable'
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
-        env = env_dict[task](seed=seed, axis_seed=seed, alphabet=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/pochenko/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+        env = env_dict[task](seed=seed, axis_seed=seed, alphabet=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
         identity = (alphabet, env.x_offset())
     else:
         raise NotImplementedError
@@ -772,12 +809,12 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
     elif retrieval_module == "implicit":
         retrieval_module = ImplicitRetrievalModule()
     elif retrieval_module == "explicit":
-        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, pca=pca, enc_method=encode_method)
+        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, pca=pca, enc_method=encode_method, guidance=guidance)
     elif retrieval_module == "explicit_prob":
-        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, prob_based=True, temperature=temperature, pca=pca, enc_method=encode_method)
+        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, prob_based=True, temperature=temperature, pca=pca, enc_method=encode_method, guidance=guidance)
     else: 
         raise NotImplementedError
-    rejection_sampler = RejectionSampler(agg_metric=agg_metric)
+    rejection_sampler = RejectionSampler(agg_metric=agg_metric, dist_metric=dist_metric)
 
     results.append({
         "task": task_name,
@@ -875,6 +912,9 @@ if __name__ == "__main__":
 
 
     parser = ArgumentParser()
+    
+    parser.add_argument('-r', '--reduced_output', action='store_true')
+    
     parser.add_argument('--seeds', type=int, default=400)
     # parser.add_argument('--cm_offset', type=int, default=0)
     parser.add_argument('--n', type=int, default=10)
@@ -888,10 +928,13 @@ if __name__ == "__main__":
     parser.add_argument('--task_name', type=str, default='turn_faucet')
     parser.add_argument('--enc_method', type=str, default='dinov2')
     parser.add_argument('--save_video', action='store_true')
-    parser.add_argument('--refine_steps', type=int, default=40)
+    parser.add_argument('--refine_steps', type=int, default=100)
     parser.add_argument('--refine_from_scratch', action='store_true')
+    parser.add_argument('--dist_metric', type=str, default='l2')
+    parser.add_argument('-g', '--guidance', type=float, default=0.0)
     args = parser.parse_args()
     for seed in tqdm(range(1000, 1000 + args.seeds)):
         if not args.retrieve_on:
             args.pca = False
-        main(seed, args.n, args.retrieve_on, args.retrieval_module, args.out_file, args.out_dir, args.agg_metric, args.temperature, args.pca, args.task_name, args.enc_method, args.save_video, args.refine_steps, args.refine_from_scratch)
+        main(seed, args.n, args.retrieve_on, args.retrieval_module, args.out_file, args.out_dir, args.agg_metric, args.temperature, args.pca, args.task_name, args.enc_method, args.save_video, args.refine_steps, args.refine_from_scratch,
+             args.dist_metric, args.guidance)

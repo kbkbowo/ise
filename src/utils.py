@@ -1,9 +1,22 @@
 from mujoco_py.generated import const
+from argparse import ArgumentParser
+from unimatch.unimatch import UniMatch
 from metaworld import policies
+from src.upsample_model import UpsampleModel
 import numpy as np
 import cv2
 import os
+import json
+import torch
 
+method2dim = {
+    "clip": 4096,
+    "dinov2": 6144,
+    "r3m": 16384,
+    "vc1": 6144,
+    "custom": 512
+}
+ALP_LIST = list("LBKRSOEZ")
 
 def get_policy(env_name):
     name = "".join(" ".join(env_name.split('-')[:-3]).title().split(" "))
@@ -85,6 +98,16 @@ def get_cmat(env, cam_name, resolution):
     image[1, 2] = (height - 1) / 2.0
     
     return image @ focal @ rotation @ translation # 3x4
+
+def init_env(env, resolution, camera, task):
+    obs = env.reset()
+    with open("name2maskid.json", "r") as f:
+        name2maskid = json.load(f)
+    seg_ids = name2maskid[task]
+    image, depth = env.render(depth=True, resolution=resolution, camera_name=camera)
+    seg = get_seg(env, camera, resolution, seg_ids)
+    cmat = get_cmat(env, camera, resolution)
+    return obs, image, depth, seg, cmat
 
 def get_obj_uvd(env, cam_name, resolution, obj_ids, far_plane=10):
     _, depth = env.render(depth=True, offscreen=True, camera_name=cam_name, resolution=resolution)
@@ -170,6 +193,81 @@ def construct_extrinsic_matrix(pos, rot):
     extrinsic[:3, 3] = pos
     return extrinsic
 
+def get_env(task, seed, identity):
+    from metaworld.envs import ALL_V2_ENVIRONMENTS_GOAL_OBSERVABLE as env_dict
+    print(task)
+    if task in ['push-test-v2-goal-observable', 'pick-bar-v2-goal-observable']:
+        env = env_dict[task](seed=seed, cm_offset=identity, cm_visible=False)
+    elif task in ['box-open-v2-goal-observable', 'box-slide-v2-goal-observable', 'faucet-open-v2-goal-observable', 'faucet-close-v2-goal-observable']:
+        env = env_dict[task](seed=seed)
+    elif task in ['push-alphabet-v2-goal-observable']:
+        alphabet = ALP_LIST[seed % len(ALP_LIST)]
+        env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+    else:
+        raise NotImplementedError
+    return env
+
+def upsample(video_32):
+    # video_32: N, C, F, H, W tensor
+    try: 
+        global upsample_model
+        with torch.no_grad():
+            upsampled = upsample_model(video_32.cuda()).cpu()
+    except: 
+        # print("upsample model not found, loading...")
+        # load model and make it global
+        upsample_model_path = "./pretrained/model_15.pth"
+        upsample_model = UpsampleModel().cuda()
+        try:
+            upsample_model.load_state_dict(torch.load(upsample_model_path, weights_only=True))
+        except: # need to unwrap the model
+            class dummy_model(torch.nn.Module):
+                def __init__(self, model):
+                    super().__init__()
+                    self.module = model
+                def forward(self, x):
+                    return self.module(x)
+            upsample_model = dummy_model(upsample_model)
+            upsample_model.load_state_dict(torch.load(upsample_model_path, weights_only=True))
+            upsample_model = upsample_model.module
+        upsample_model.eval()
+        with torch.no_grad():
+            upsampled = upsample_model(video_32.cuda()).cpu()
+
+    # clamp values
+    upsampled = torch.clamp(upsampled, 0, 1)
+    return upsampled
+
+def get_flow_model():
+    parser = ArgumentParser()
+    parser.add_argument('--model', type=str, default='pretrained/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth')
+    parser.add_argument('--feature_channels', type=int, default=128)
+    parser.add_argument('--num_scales', type=int, default=2)
+    parser.add_argument('--upsample_factor', type=int, default=4)
+    parser.add_argument('--num_head', type=int, default=1)
+    parser.add_argument('--ffn_dim_expansion', type=int, default=4)
+    parser.add_argument('--num_transformer_layers', type=int, default=6)
+    parser.add_argument('--reg_refine', type=bool, default=True)
+    parser.add_argument('--task', type=str, default='flow')
+    args = parser.parse_args(args=[])
+    DEVICE = 'cuda:0'
+
+    model = UniMatch(feature_channels=args.feature_channels,
+                        num_scales=args.num_scales,
+                        upsample_factor=args.upsample_factor,
+                        num_head=args.num_head,
+                        ffn_dim_expansion=args.ffn_dim_expansion,
+                        num_transformer_layers=args.num_transformer_layers,
+                        reg_refine=args.reg_refine,
+                        task=args.task).to(DEVICE)
+
+    checkpoint = torch.load(args.model, map_location=DEVICE, weights_only=True)
+    model.load_state_dict(checkpoint['model'])
+
+    model.to(DEVICE)
+    model.eval()
+    model._requires_grad = False
+    return model
 
 class FlowManager():
     def __init__(self, env, object_ids=[0], resolution=(320, 240), camera_name='corner', record_depths=False):
@@ -328,5 +426,4 @@ def sample_n_frames(frames, n):
 
 
 
-    
     

@@ -3,7 +3,7 @@ import torch.nn.functional as F
 
 
 def coords_grid(b, h, w, homogeneous=False, device=None):
-    y, x = torch.meshgrid(torch.arange(h), torch.arange(w))  # [H, W]
+    y, x = torch.meshgrid([torch.arange(h), torch.arange(w)], indexing='ij')  # [H, W]
 
     stacks = [x, y]
 
