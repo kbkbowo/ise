@@ -20,13 +20,14 @@ from argparse import ArgumentParser
 import pickle
 from flowdiffusion.inference_utils import get_video_model_diffae_feat_suc
 from torchvision import transforms as T
+# from torchvision.video import transform as VT
 from upsample_model import UpsampleModel
 # pca
 from sklearn.decomposition import PCA
 import random
 from extract_features import FeatEncoder
 from torch import nn
-
+from torchvideotransforms import video_transforms, volume_transforms
 # global trainer
 # global upsample_model
 
@@ -340,7 +341,7 @@ class RejectionSampler:
             self.cached_plans = plans
 
     def encode_video(self, video):
-        print("ENCODE_VIDEO_REJECTION", video.shape)
+        # print("ENCODE_VIDEO_REJECTION", video.shape)
         return torch.from_numpy(self.feat_encoder(video)).cuda()
 
     def calc_dist(self, a_s, b_s):
@@ -353,6 +354,7 @@ class RejectionSampler:
             dist = torch.cdist(a_s, b_s, p=2)
             print("DIST_REJECTION", dist.shape)
             return dist
+
         elif self.dist_metric == 'enc':
             
             a_s = rearrange(a_s, 'n f c h w -> n f c h w')
@@ -393,166 +395,14 @@ class RejectionSampler:
         print(len(self.cached_plans), agg_dists, np.argmax(agg_dists.values).item())
         return self.cached_plans[np.argmax(agg_dists.values).item()]
 
-# class CLIPRetrievalModule():
-#     def __init__(self, training_seeds=10, max_training_offset=36, on=True):
-#         if on:
-#             import clip
-#             self.model, self.preprocess = clip.load("ViT-B/32", device='cuda')
-#             # preproces features
-#             with open("clip_downsample10_0630.pkl", "rb") as f:
-#                 all_dict = pickle.load(f)
-#             filtered_dict = []
-#             filtered_feats = []
-#             for i, d in enumerate(all_dict):
-#                 if (int(d["seed"]) < training_seeds) and (abs(int(d["cm"]) - int(d["push"])) <= max_training_offset):
-#                     filtered_dict.append(d)
-#                     filtered_feats.append(d["sfeat"])
-#             self.filtered_feats = torch.from_numpy(np.array(filtered_feats)).float().cuda()
-#             self.filtered_dict = filtered_dict
-#         self.video = None
-    
-#     def reset(self):
-#         self.video = None
-
-#     def encode_video(self, video):
-#         # video: N, H, W, C np array
-#         # convert to PIL images
-#         images = [Image.fromarray(frame) for frame in video]
-#         # preprocess
-#         images = [self.preprocess(image) for image in images]
-#         images = torch.stack(images).to('cuda')
-#         # encode
-#         with torch.no_grad():
-#             image_features = self.model.encode_image(images)
-#         return image_features.flatten()
-
-#     def retrieve_nearest_n(self, feat, n=10):
-#         # find nearest
-#         dist = torch.cdist(feat.unsqueeze(0), self.filtered_feats, p=2).squeeze()
-#         nearest_idx = torch.argsort(dist)[:n]
-#         return [self.filtered_dict[i] for i in nearest_idx]
-
-#     def generate_n_sample(self, seed=0, resolution=(640, 480), camera='corner', task='push-test-v2-goal-observable', n=10, f=10, f_o=8):
-#         if self.video is None:
-#             print("No video queried, generating random plan...")
-#             return [sample_n_frames(generate_sample_gt(seed, resolution, camera, task), f_o) for _ in range(n)]
-#         print("Retrieving nearest plans...")
-#         video = sample_n_frames(self.video, f)
-#         feat = self.encode_video(video).float().cuda() # [5120]
-#         feat_dicts = self.retrieve_nearest_n(feat, n)
-#         samples = []
-#         for d in feat_dicts:
-#             cm_offset = (int(d["cm"]) / 100) - 0.18
-#             print("cm_offset:", cm_offset)
-#             env = env_dict[task](seed=seed, cm_offset=cm_offset, cm_visible=False)
-#             obs, image, depth, seg, cmat = init_env(env, resolution, camera, task)
-#             video = interact(env, obs, 0, resolution, camera)
-#             samples.append(sample_n_frames(video, f_o))
-#         return samples
-
-#     def update_query(self, video):
-#         self.video = video
-
-# class ImplicitRetrievalModule():
-#     def __init__(self, training_seeds=10, max_training_offset=36, on=True):
-#         if on:
-#             import clip
-#             self.first_frame_transform = T.Compose([
-#                 T.CenterCrop(128),
-#                 T.Resize((32, 32)),
-#                 T.ToTensor()
-#             ])
-#             self.clip_pre_transform = T.Compose([
-#                 T.CenterCrop(128),
-#                 T.Resize((224, 224))
-#             ])
-#             self.model, self.preprocess = clip.load("ViT-B/32", device='cuda')
-#             trainer = get_video_model_diffae_feat_suc(ckpt_dir="/tmp2/seanfu/test_time_adaptation/ckpts/0827_implicit_ret/", timestep=25)
-#             self.diffusion = trainer.ema.ema_model # trainer->diffusion->unet
-#             trainer.model.cpu()
-#             self.diffusion.eval()
-#             self.text_feat = trainer.encode_batch_text([""]).detach()
-#             # preproces features
-#             with open("/tmp2/seanfu/temp/mw_temp/extrated_features/clip/all_feats.npy", "rb") as f:
-#                 all_dict = np.load(f, allow_pickle=True).item()
-
-#             filtered_dict = []
-#             filtered_feats = []
-#             for key, value in all_dict.items():
-#                 (seed, push, cm) = key.split("_")
-#                 if (int(seed) < training_seeds) and (abs(int(cm) - int(push)) <= max_training_offset):
-#                     filtered_dict.append(key)
-#                     filtered_feats.append(value)
-#             self.filtered_feats = torch.from_numpy(np.array(filtered_feats)).float().cuda()
-#             self.filtered_dict = filtered_dict
-#         self.video = None
-    
-#     def reset(self):
-#         self.video = None
-
-#     def encode_video(self, video):
-#         # video: N, H, W, C np array
-#         # convert to PIL images
-#         images = [self.clip_pre_transform(Image.fromarray(frame)) for frame in video]
-#         # preprocess
-#         images = [self.preprocess(image) for image in images]
-#         images = torch.stack(images).to('cuda')
-#         # encode
-#         with torch.no_grad():
-#             image_features = self.model.encode_image(images)
-#         return image_features.flatten()
-
-#     # def retrieve_nearest_n(self, feat, n=1):
-#     #     # find nearest
-#     #     dist = torch.cdist(feat.unsqueeze(0), self.filtered_feats, p=2).squeeze()
-#     #     nearest_idx = torch.argsort(dist)[:n]
-#     #     return [self.filtered_feat[i] for i in nearest_idx]
-
-#     def generate_n_sample(self, seed=0, resolution=(640, 480), camera='corner', task='push-test-v2-goal-observable', n=1, f=8, f_o=8):
-#         if self.video is None:
-#             print("No video queried, generating random plan...")
-#             feat = [None]
-#         else:
-#             print("Retrieving nearest plans...")
-#             video = sample_n_frames(self.video, f)
-#             feat = self.encode_video(video).float().cuda().unsqueeze(0).unsqueeze(0) # [1 1 5120]
-#         # feat_dicts = self.retrieve_nearest_n(feat, n)
-#         samples = []
-#         env = env_dict[task](seed=seed, cm_offset=0, cm_visible=False)
-#         obs, image, depth, seg, cmat = init_env(env, resolution, camera, task)
-
-#         first_frame = self.first_frame_transform(Image.fromarray(image))
-#         generation = self.diffusion.p_sample_loop(
-#             (1, 7*3, 32, 32),
-#             first_frame.unsqueeze(0).cuda(),
-#             self.text_feat.expand(1, -1, -1).cuda(),
-#             feat,
-#             torch.tensor([1]).cuda().unsqueeze(0),
-#         )
-#         pred_frames = rearrange(generation, '1 (f c) h w -> c f h w', c=3).cpu()
-#         pred_video = torch.cat([first_frame.unsqueeze(1), pred_frames], dim=1)
-#         generation = upsample(pred_video.unsqueeze(0)).squeeze(0).numpy()
-        
-#         # pad the generated video to the original resolution
-#         pad_h = (resolution[1] - generation.shape[2]) // 2
-#         pad_w = (resolution[0] - generation.shape[3]) // 2
-#         generation = np.pad(generation, ((0, 0), (0, 0), (pad_h, pad_h), (pad_w, pad_w)))
-#         # generation = ((generation * 255).astype(np.uint8))
-#         generation = rearrange(generation, 'c f h w -> f h w c')
-
-#         samples.append((generation * 255).astype(np.uint8))
-#         return samples
-
-#     def update_query(self, video):
-#         self.video = video
-
 class ExplicitRetrievalModule():
-    def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip", guidance=0.0):
+    def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip", guidance=0.0, random_generation=0.0):
         self.prob_based = prob_based
         self.temperature = temperature
         self.pca = pca
         self.enc_method = enc_method
         self.guidance = guidance
+        self.random_generation = random_generation
         # import clip
         self.first_frame_transform = T.Compose([
             T.CenterCrop(128),
@@ -695,6 +545,24 @@ class ExplicitRetrievalModule():
         if self.video is None:
             print("No video queried, generating random plan...")
             feats = [[None] for _ in range(n)]
+        elif refine_from_scratch:
+            video = sample_n_frames(self.video, f)
+            feat = self.encode_video(video).float()
+            origin_feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
+            feat = self.refine_feat(video, origin_feat, refine_steps)
+            
+            num_conditioned = round(n * (1 - self.random_generation))
+            num_unconditioned = n - num_conditioned
+            
+            feat_list = []
+            for _ in range(num_conditioned):
+                feat_list.append(feat.cuda().unsqueeze(0).unsqueeze(0))
+            for _ in range(num_unconditioned):
+                feat_list.append([None])
+                
+            # feats = [f.cuda().unsqueeze(0).unsqueeze(0) for f in feat_list]
+            feats = feat_list
+            print("feats", feats)
         else:
             print("Retrieving nearest plans...")
             video = sample_n_frames(self.video, f)
@@ -706,6 +574,10 @@ class ExplicitRetrievalModule():
                 feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
 
             feat = self.refine_feat(video, feat, refine_steps)
+            if self.random_generation > 0:
+                
+                num_unconditional_samples = int(len(feat))
+                
             feats = [f.cuda().unsqueeze(0).unsqueeze(0) for f in self.retrieve_nearest_n(feat, n)]
         # feat_dicts = self.retrieve_nearest_n(feat, n)
         samples = []
@@ -715,6 +587,11 @@ class ExplicitRetrievalModule():
         first_frame = self.first_frame_transform(Image.fromarray(image))
 
         for feat in feats:
+            print(feat)
+            # if feat is not None:
+            #     print("feat shape", feat.shape)
+            #     feat = feat.squeeze().squeeze()
+            #     print("feat shape", feat.shape)
             # generation = self.diffusion.p_sample_loop(
             generation = self.diffusion.sample(
                 first_frame.unsqueeze(0).cuda(),
@@ -748,7 +625,7 @@ class ExplicitRetrievalModule():
 # image_features = retrieval_module.generate_n_sample(video)
 # print(image_features[0].shape)
 # print(len(image_features))
-def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, temperature, pca, task_name, encode_method, save_video, refine_steps, refine_from_scratch, dist_metric, guidance):
+def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, temperature, pca, task_name, encode_method, save_video, refine_steps, refine_from_scratch, dist_metric, guidance, random_generation):
     # MAX_TRIALS = 16
     MAX_TRIALS = max_trials(task_name)
     resolution = (640, 480)
@@ -809,9 +686,9 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
     elif retrieval_module == "implicit":
         retrieval_module = ImplicitRetrievalModule()
     elif retrieval_module == "explicit":
-        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, pca=pca, enc_method=encode_method, guidance=guidance)
+        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, pca=pca, enc_method=encode_method, guidance=guidance, random_generation=random_generation)
     elif retrieval_module == "explicit_prob":
-        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, prob_based=True, temperature=temperature, pca=pca, enc_method=encode_method, guidance=guidance)
+        retrieval_module = ExplicitRetrievalModule(task_name=task_name, on=retrieve_on, prob_based=True, temperature=temperature, pca=pca, enc_method=encode_method, guidance=guidance, random_generation=random_generation)
     else: 
         raise NotImplementedError
     rejection_sampler = RejectionSampler(agg_metric=agg_metric, dist_metric=dist_metric)
@@ -915,7 +792,7 @@ if __name__ == "__main__":
     
     parser.add_argument('-r', '--reduced_output', action='store_true')
     
-    parser.add_argument('--seeds', type=int, default=400)
+    parser.add_argument('-s', '--seeds', type=int, default=400)
     # parser.add_argument('--cm_offset', type=int, default=0)
     parser.add_argument('--n', type=int, default=10)
     parser.add_argument('--retrieve_on', action='store_true')
@@ -932,9 +809,10 @@ if __name__ == "__main__":
     parser.add_argument('--refine_from_scratch', action='store_true')
     parser.add_argument('--dist_metric', type=str, default='l2')
     parser.add_argument('-g', '--guidance', type=float, default=0.0)
+    parser.add_argument('-rg', '--random_generation', type=float, default=0.0)
     args = parser.parse_args()
     for seed in tqdm(range(1000, 1000 + args.seeds)):
         if not args.retrieve_on:
             args.pca = False
         main(seed, args.n, args.retrieve_on, args.retrieval_module, args.out_file, args.out_dir, args.agg_metric, args.temperature, args.pca, args.task_name, args.enc_method, args.save_video, args.refine_steps, args.refine_from_scratch,
-             args.dist_metric, args.guidance)
+             args.dist_metric, args.guidance, args.random_generation)
