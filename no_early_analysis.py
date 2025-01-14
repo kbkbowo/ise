@@ -141,14 +141,21 @@ def main():
         failure_rate_list[i] = failure_rate
         failure_se_list[i] = failure_se
     
+    np.save(f'data/distance_{args.task}.npy', dist)
+    
+    
     plt.plot(success_dist_sorted, success_rate_list, label='Success')
     plt.fill_between(success_dist_sorted, success_rate_list - success_se_list, success_rate_list + success_se_list, alpha=0.3)
     
     plt.plot(failure_dist_sorted, failure_rate_list, label='Failure')
     plt.fill_between(failure_dist_sorted, failure_rate_list - failure_se_list, failure_rate_list + failure_se_list, alpha=0.3)
     
+    plt.title(f'CDF of Cosine Similarity for {args.task}')
+    plt.xlabel('Cosine Similarity')
+    plt.ylabel('CDF')
+    
     plt.legend()
-    plt.savefig(f'figures/success_rate_{args.task}.png')
+    plt.savefig(f'figures/side/similarity_cdf_{args.task}.png')
     
 if __name__ == '__main__':
     main()

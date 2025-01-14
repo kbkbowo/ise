@@ -360,6 +360,9 @@ class RejectionSampler:
             a_s = rearrange(a_s, 'n f c h w -> n f c h w')
             b_s = rearrange(b_s, 'm f c h w -> m f c h w')
             print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
+            a_s = torch.stack([transform(frame) for frame in a_s])
+            b_s = torch.stack([transform(frame) for frame in b_s])
+            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
             embedding_a = torch.stack([self.encode_video(a) for a in a_s]).detach().cpu()
             embedding_b = torch.stack([self.encode_video(b) for b in b_s]).detach().cpu()
             print(embedding_a.shape, embedding_b.shape)
@@ -570,8 +573,8 @@ class ExplicitRetrievalModule():
             feat = self.encode_video(video).float() # [1 1 5120]
             
 
-            if refine_from_scratch:
-                feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
+            # if refine_from_scratch:
+            #     feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
 
             feat = self.refine_feat(video, feat, refine_steps)
             if self.random_generation > 0:
