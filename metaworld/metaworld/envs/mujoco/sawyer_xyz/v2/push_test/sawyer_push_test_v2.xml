@@ -8,7 +8,7 @@
             <body name="obj" pos="0 0.6 0.02">
                 <joint name="objjoint" type="free" limited='false' damping="0." armature="0."/>
                 <inertial pos="0 0 0" mass="5.0" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/>
-                    <geom name="rod" type="box" pos="0.07068910611388494 0 0"
+                    <geom name="rod" type="box" pos="-0.09008890589298264 0 0"
                         size="0.2 0.02 0.02" rgba="0.75 0.75 0.85 1"
                         conaffinity="1" condim="1"
                     />
