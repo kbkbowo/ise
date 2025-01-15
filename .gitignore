@@ -5,3 +5,6 @@ down_dataset/
 __pycache__/
 *.pyc
 *.xml
+test.py
+test/
+test_env.py
