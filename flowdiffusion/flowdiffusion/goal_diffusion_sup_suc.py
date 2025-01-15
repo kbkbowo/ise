@@ -485,7 +485,7 @@ class GoalGaussianDiffusion(nn.Module):
     def model_predictions(self, x, t, x_cond, task_embed, supp, suc, clip_x_start=False, rederive_pred_noise=False, guidance_weight=0):
         # task_embed = self.text_encoder(goal).last_hidden_state
         model_output = self.model(torch.cat([x, x_cond], dim=1), t, task_embed, supp, suc)
-        if guidance_weight > 0.0:
+        if guidance_weight != 0.0:
             supp = [None for s in supp]
             uncond_model_output = self.model(torch.cat([x, x_cond], dim=1), t, task_embed, supp, suc)
 
