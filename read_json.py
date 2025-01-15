@@ -20,6 +20,8 @@ def main():
     with open(args.file, 'r') as f:
         results = json.load(f)
         
+    results = results[:-1]
+        
     replan_list = []
     
     
@@ -35,6 +37,7 @@ def main():
     values = [mean_replan_retrieve]
     errors = [se_replan_retrieve]
     
+    print(len(replan_list))
     print(f'{values} +- {errors}')
             
     

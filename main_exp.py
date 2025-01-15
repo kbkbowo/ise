@@ -350,22 +350,15 @@ class RejectionSampler:
             
             a_s = torch.from_numpy(rearrange(a_s, 'n f c h w -> 1 n (f c h w)')).float()
             b_s = torch.from_numpy(rearrange(b_s, 'm f c h w -> 1 m (f c h w)')).float()
-            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
             dist = torch.cdist(a_s, b_s, p=2)
-            print("DIST_REJECTION", dist.shape)
             return dist
 
         elif self.dist_metric == 'enc':
             
             a_s = rearrange(a_s, 'n f c h w -> n f c h w')
             b_s = rearrange(b_s, 'm f c h w -> m f c h w')
-            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
-            a_s = torch.stack([transform(frame) for frame in a_s])
-            b_s = torch.stack([transform(frame) for frame in b_s])
-            print("VIDEO_SHAPE_REJECTION", a_s.shape, b_s.shape)
             embedding_a = torch.stack([self.encode_video(a) for a in a_s]).detach().cpu()
             embedding_b = torch.stack([self.encode_video(b) for b in b_s]).detach().cpu()
-            print(embedding_a.shape, embedding_b.shape)
             embedding_a_norm = embedding_a / torch.norm(embedding_a, dim=1, keepdim=True)
             embedding_b_norm = embedding_b / torch.norm(embedding_b, dim=1, keepdim=True)
             similarity = torch.matmul(embedding_a_norm, embedding_b_norm.transpose(0, 1)).unsqueeze(0)
@@ -389,14 +382,16 @@ class RejectionSampler:
     
     def select_best(self):
         if len(self.negatives) == 0:
-            print("No negatives provided, returning a random plan...")
             return self.cached_plans[0]
-        print("Selecting best plan...")
         dists = self.calc_dist(self.negatives, self.cached_plans)
-        print(dists.shape, dists)
-        agg_dists = self.aggregate(dists)
-        print(len(self.cached_plans), agg_dists, np.argmax(agg_dists.values).item())
-        return self.cached_plans[np.argmax(agg_dists.values).item()]
+        agg_dists = self.aggregate(dists).values
+        # print("AGG_DIST_REJECTION_ORIGIN", agg_dists)
+        agg_dists_normalized = torch.nn.functional.normalize(agg_dists, p=2, dim=1)
+        # print("AGG_DIST_REJECTION_NORMALIZED", agg_dists_normalized)
+        TEMPERATURE = 3
+        agg_dists_soft = torch.softmax(agg_dists_normalized * TEMPERATURE, dim=1)
+        # print("AGG_DIST_REJECTION_SOFTMAX", agg_dists_soft)
+        return self.cached_plans[torch.distributions.Categorical(agg_dists_soft).sample().item()]
 
 class ExplicitRetrievalModule():
     def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip", guidance=0.0, random_generation=0.0):
@@ -488,7 +483,6 @@ class ExplicitRetrievalModule():
         # with torch.no_grad():
         #     image_features = self.model.encode_image(images)
         # return image_features.flatten()
-        print("ENCODE_VIDEO", video.shape)
         return torch.from_numpy(self.feat_encoder(video)).cuda()
 
     def refine_feat(self, interaction_video, feat, refine_steps=40):
@@ -503,7 +497,6 @@ class ExplicitRetrievalModule():
         first_frame = rearrange(first_frame, 'f c h w -> 1 (f c) h w')
         future_frames = torch.stack([self.first_frame_transform(Image.fromarray(frame)) for frame in interaction_video[1:]])
         future_frames = rearrange(future_frames, 'f c h w -> 1 (f c) h w')
-        print("refining feature...")
         for i in tqdm(range(refine_steps)):
             loss = self.diffusion(
                 future_frames.cuda(),
@@ -546,7 +539,6 @@ class ExplicitRetrievalModule():
 
     def generate_n_sample(self, seed=0, resolution=(640, 480), camera='corner', task='push-test-v2-goal-observable', identity=None, n=1, f=8, f_o=8, refine_steps=0, refine_from_scratch=False):
         if self.video is None:
-            print("No video queried, generating random plan...")
             feats = [[None] for _ in range(n)]
         elif refine_from_scratch:
             video = sample_n_frames(self.video, f)
@@ -565,22 +557,12 @@ class ExplicitRetrievalModule():
                 
             # feats = [f.cuda().unsqueeze(0).unsqueeze(0) for f in feat_list]
             feats = feat_list
-            print("feats", feats)
         else:
-            print("Retrieving nearest plans...")
             video = sample_n_frames(self.video, f)
-            print("VIDEO SHAPE", video.shape)
             feat = self.encode_video(video).float() # [1 1 5120]
             
-
-            # if refine_from_scratch:
-            #     feat = torch.randn_like(feat) * self.filtered_feats_std + self.filtered_feats_mean
-
             feat = self.refine_feat(video, feat, refine_steps)
-            if self.random_generation > 0:
-                
-                num_unconditional_samples = int(len(feat))
-                
+
             feats = [f.cuda().unsqueeze(0).unsqueeze(0) for f in self.retrieve_nearest_n(feat, n)]
         # feat_dicts = self.retrieve_nearest_n(feat, n)
         samples = []
@@ -590,7 +572,6 @@ class ExplicitRetrievalModule():
         first_frame = self.first_frame_transform(Image.fromarray(image))
 
         for feat in feats:
-            print(feat)
             # if feat is not None:
             #     print("feat shape", feat.shape)
             #     feat = feat.squeeze().squeeze()
@@ -643,14 +624,11 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
 
     last_done = (results[-1]["pred_identity"] is not None) if len(results) > 0 else True
     if not last_done:
-        print(results[-1])
-        print(f"Detected unfinished seed {seed}, pruning...")
         results = results[:-1]
 
     # check the last result
     last_seed = results[-1]["seed"] if len(results) > 0 else 0
     if last_seed >= seed:
-        print(f"Seed {seed} already done, skipping...")
         # skip the seed
         return
     # task = 'push-test-v2-goal-observable'
@@ -734,19 +712,14 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
         # x_offset = get_push_loc(seg, depth, cmat, plan, flow_model)
         # x_offset = np.clip(x_offset, -0.18, 0.18)
         # push_attempts.append(x_offset)
-        print("Calculating policy parameters...")
         subgoals = get_subgoals(seg, depth, cmat, plan, flow_model, task_name)
-        print(subgoals)
         p_identity = pred_identity(task_name, subgoals)
         if task_name in ['push_bar', 'pick_bar', 'push_alphabet']:
-            print(p_identity)
-            print(obs[4])
             relative_offset = p_identity + obs[4]
             p_identity = relative_offset
         p_identities.append(p_identity)
         policy = make_policy(task_name, task, p_identity)
 
-        print("Making interaction...")
         # env = env_dict[task](seed=seed, cm_offset=cm_offset, cm_visible=False)
         env = get_env(task, seed, identity)
         obs, image, depth, seg, cmat = init_env(env, resolution, camera, task)
@@ -755,7 +728,6 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
         frameskip = 16
         imageio.mimsave(f"{trail_dir}/interaction.mp4", interaction[::frameskip], fps=16)
 
-        print("Interaction length:", len(interaction))
         if len(interaction) < 500:
             success = True
             break

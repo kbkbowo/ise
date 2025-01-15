@@ -4,5 +4,4 @@ results_no_early_stop/
 down_dataset/
 __pycache__/
 *.pyc
-figures/
-data/
+*.xml
