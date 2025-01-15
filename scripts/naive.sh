@@ -1,0 +1,1 @@
+python main_exp.py -s 100 --n 1 --out_file "results_main/baseline_dino_naive_pick_bar_new.json" --out_dir "results_main/baseline_dino_naive_pick_bar_new" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "pick_bar"
