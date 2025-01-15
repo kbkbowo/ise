@@ -89,7 +89,7 @@ class SawyerPickBarEnvV2(SawyerXYZEnv):
             <include file="../objects/assets/xyz_base.xml"/>
             <body name="obj" pos="0 0.6 0.02">
                 <joint name="objjoint" type="free" limited='false' damping="0." armature="0."/>
-                <inertial pos="0 0 0" mass="50.0" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/>
+                <inertial pos="0 0 0" mass="20.0" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/>
                     <geom name="rod" type="box" pos="{ pm } 0 0"
                         size="0.2 0.02 0.02" rgba="0.75 0.75 0.85 1"
                         conaffinity="1" condim="1"
