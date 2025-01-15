@@ -1,9 +1,12 @@
-import numpy as np
+import torch
 
-array = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
+x = torch.tensor([0.7066, 0.0267, 0.0330, 0.7064])
+x = x.unsqueeze(0)
 
-array = np.array(array)
+# x_normalized = torch.nn.functional.normalize(x, p=2, dim=1)
 
-array = array.flatten()
+y = torch.softmax(x * 3, dim=1)
+print(y)
 
-print(array)
+z = torch.distributions.Categorical(y).sample()
+print(z)

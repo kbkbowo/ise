@@ -5,7 +5,7 @@ down_dataset/
 __pycache__/
 *.pyc
 *.xml
-test.py
+# test.py
 test/
 test_env.py
 metaworld/metaworld/envs/mujoco/sawyer_xyz/v2/push_test/sawyer_push_test_v2.xml
