@@ -1,0 +1,5029 @@
+[
+    {
+        "task": "turn_faucet",
+        "seed": 1000,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1001,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1002,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1003,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1004,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1005,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1006,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1007,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1008,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1009,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1010,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1011,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1012,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1013,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1014,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1015,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1016,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1017,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1018,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1019,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1020,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1021,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1022,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1023,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1024,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1025,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1026,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1027,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1028,
+        "identity": "close",
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1029,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1030,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1031,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1032,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1033,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1034,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1035,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 84
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1036,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1037,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1038,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1039,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1040,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1041,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 111
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1042,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1043,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1044,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1045,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1046,
+        "identity": "open",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1047,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1048,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1049,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1050,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1051,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1052,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1053,
+        "identity": "close",
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1054,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1055,
+        "identity": "open",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1056,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1057,
+        "identity": "open",
+        "success": true,
+        "trials": 8,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1058,
+        "identity": "close",
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1059,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1060,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1061,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1062,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1063,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1064,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1065,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1066,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1067,
+        "identity": "close",
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1068,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1069,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1070,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1071,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1072,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1073,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1074,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1075,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1076,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 105
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1077,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1078,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1079,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1080,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1081,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1082,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1083,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1084,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1085,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1086,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1087,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1088,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1089,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1090,
+        "identity": "open",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1091,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1092,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1093,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1094,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1095,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1096,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1097,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1098,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1099,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1100,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1101,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1102,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1103,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1104,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1105,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1106,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1107,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1108,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1109,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1110,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1111,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1112,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1113,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1114,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1115,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1116,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1117,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1118,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1119,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1120,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1121,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1122,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1123,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1124,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1125,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1126,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 105
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1127,
+        "identity": "close",
+        "success": true,
+        "trials": 8,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1128,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1129,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1130,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1131,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1132,
+        "identity": "close",
+        "success": true,
+        "trials": 8,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1133,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1134,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1135,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1136,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1137,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1138,
+        "identity": "open",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1139,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1140,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1141,
+        "identity": "open",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1142,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1143,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1144,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1145,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1146,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1147,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1148,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1149,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1150,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1151,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1152,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1153,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1154,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1155,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1156,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1157,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1158,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1159,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1160,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1161,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1162,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1163,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1164,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1165,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1166,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 59
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1167,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1168,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1169,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1170,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1171,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1172,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1173,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1174,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1175,
+        "identity": "open",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1176,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1177,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1178,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1179,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1180,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1181,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1182,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1183,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1184,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1185,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1186,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1187,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1188,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1189,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1190,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1191,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1192,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1193,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1194,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1195,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1196,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1197,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1198,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 75
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1199,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1200,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1201,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1202,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 57
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1203,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1204,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1205,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1206,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1207,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1208,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1209,
+        "identity": "open",
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1210,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1211,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1212,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1213,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1214,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1215,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1216,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1217,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1218,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1219,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1220,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1221,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1222,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1223,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1224,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1225,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1226,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 84
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1227,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1228,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1229,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1230,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1231,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1232,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1233,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1234,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1235,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1236,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1237,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1238,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1239,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1240,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1241,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1242,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1243,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1244,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1245,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1246,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1247,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 75
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1248,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1249,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1250,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1251,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1252,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1253,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1254,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1255,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1256,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1257,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1258,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1259,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1260,
+        "identity": "open",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1261,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 84
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1262,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1263,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1264,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1265,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1266,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1267,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1268,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1269,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1270,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1271,
+        "identity": "open",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1272,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1273,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1274,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1275,
+        "identity": "open",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1276,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1277,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1278,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1279,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 84
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1280,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1281,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1282,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1283,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1284,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1285,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1286,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1287,
+        "identity": "close",
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1288,
+        "identity": "close",
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1289,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1290,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1291,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1292,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1293,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 110
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1294,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1295,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1296,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1297,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1298,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1299,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1300,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1301,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1302,
+        "identity": "close",
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1303,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1304,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1305,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1306,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1307,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1308,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1309,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1310,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1311,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1312,
+        "identity": "open",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1313,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1314,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1315,
+        "identity": "open",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1316,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 75
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1317,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1318,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1319,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1320,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1321,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1322,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1323,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1324,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1325,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1326,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1327,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1328,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1329,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1330,
+        "identity": "close",
+        "success": true,
+        "trials": 14,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1331,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1332,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1333,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1334,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1335,
+        "identity": "open",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1336,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1337,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1338,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1339,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1340,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1341,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1342,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1343,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1344,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1345,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 87
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1346,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1347,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1348,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1349,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1350,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1351,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1352,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1353,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 80
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1354,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1355,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1356,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 85
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1357,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1358,
+        "identity": "open",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1359,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 91
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1360,
+        "identity": "open",
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 89
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1361,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1362,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 82
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1363,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1364,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1365,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 84
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1366,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1367,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 93
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1368,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1369,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1370,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1371,
+        "identity": "close",
+        "success": false,
+        "trials": 15,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 502
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1372,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1373,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1374,
+        "identity": "close",
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1375,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1376,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 92
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1377,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 95
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1378,
+        "identity": "close",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1379,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 78
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1380,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1381,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1382,
+        "identity": "open",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 90
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1383,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1384,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1385,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1386,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 75
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1387,
+        "identity": "close",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1388,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 88
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1389,
+        "identity": "close",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1390,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1391,
+        "identity": "close",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 94
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1392,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 83
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1393,
+        "identity": "close",
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 79
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1394,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1395,
+        "identity": "close",
+        "success": true,
+        "trials": 10,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1396,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 81
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1397,
+        "identity": "open",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-close-v2-goal-observable",
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1398,
+        "identity": "open",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable"
+        ],
+        "int_length": 86
+    },
+    {
+        "task": "turn_faucet",
+        "seed": 1399,
+        "identity": "close",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "faucet-open-v2-goal-observable",
+            "faucet-close-v2-goal-observable"
+        ],
+        "int_length": 103
+    }
+]

@@ -15,6 +15,8 @@ def main():
     parser.add_argument('-a', '--all', type=str, required=True)
     parser.add_argument('-tt', '--total_trial', type=int, default=16)
     
+    parser.add_argument('-r', '--reverse', action='store_true')
+    
     args = parser.parse_args()
     
     task_list = ['push_bar', 'pick_bar', 'open_box', 'turn_faucet']
@@ -68,17 +70,35 @@ def main():
     
     categoreis = ['Naive', 'Rejection', 'Retrieval', 'All (ours)']
     
-    values = [mean_replan_naive, mean_replan_rejection, mean_replan_retrieval, mean_replan_all]
-    errors = [se_replan_naive, se_replan_rejection, se_replan_retrieval, se_replan_all]
-    
-    plt.bar(categoreis, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
-    
+    if args.reverse:
+        
+        values = [1, mean_replan_rejection/mean_replan_naive, mean_replan_retrieval/mean_replan_naive, mean_replan_all/mean_replan_naive]
+        errors = [se_replan_naive/mean_replan_naive, se_replan_rejection/mean_replan_naive, se_replan_retrieval/mean_replan_naive, se_replan_all/mean_replan_naive]
+        
+        categoreis = ['Naive', 'Rejection', 'Retrieval', 'All (ours)']
+        
+        plt.bar(categoreis, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
+        
 
-    plt.xlabel('Baselines')
-    plt.ylabel('Number of Replans')
-    plt.title('Average Number of Replans, Task: ' + args.task)
-    # plt.legend()
-    plt.savefig(f'figures/main/main_experiment_replan_number_{args.task}.png')
+        plt.xlabel('Baselines')
+        plt.ylabel('Number of Replans')
+        plt.title('Average Number of Replans, Task: ' + args.task)
+        # plt.legend()
+        plt.savefig(f'figures/main/main_experiment_replan_number_{args.task}.png') 
+    
+    else:
+
+        values = [mean_replan_naive, mean_replan_rejection, mean_replan_retrieval, mean_replan_all]
+        errors = [se_replan_naive, se_replan_rejection, se_replan_retrieval, se_replan_all]
+        
+        plt.bar(categoreis, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
+        
+
+        plt.xlabel('Baselines')
+        plt.ylabel('Number of Replans')
+        plt.title('Average Number of Replans, Task: ' + args.task)
+        # plt.legend()
+        plt.savefig(f'figures/main/main_experiment_replan_number_{args.task}.png')
            
     print(mean_replan_all) 
     

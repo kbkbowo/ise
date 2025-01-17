@@ -14,6 +14,8 @@ def main():
     parser.add_argument('-s', '--seeds', type=int, default=400)
     parser.add_argument('-n ', '--name', type=str, default='test')
     
+    parser.add_argument('-r', '--reverse', action='store_true')
+    
     args = parser.parse_args()
     
     assert len(args.files) == len(args.categories)
@@ -32,8 +34,6 @@ def main():
             
         results = results[:args.seeds]
             
-        # results = results[:-1]
-            
         replan_list = []
         
         
@@ -50,7 +50,13 @@ def main():
         values.append(mean_replan_retrieve)
         errors.append(se_replan_retrieve)
         
-    plt.bar(args.categories, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
+    if args.reverse:
+        factor = values[0]
+        values = [value / factor for value in values]
+        errors = [error / factor for error in errors]
+        plt.bar(args.categories, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
+    else:
+        plt.bar(args.categories, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
     
     plt.savefig(f'figures/{args.name}.png')
     

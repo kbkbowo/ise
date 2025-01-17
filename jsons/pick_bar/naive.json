@@ -1,0 +1,4800 @@
+[
+    {
+        "task": "pick_bar",
+        "seed": 1000,
+        "identity": 0.05529225076725944,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06544294017528939
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1001,
+        "identity": -0.06975641536243003,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.13597587106824294,
+            0.05396109401126713
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1002,
+        "identity": -0.1335642160817268,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.18729438630280876,
+            0.07408537503040291
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1003,
+        "identity": 0.035210087312389476,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.11133560146101917,
+            -0.1343914147245866,
+            -0.08963668768445121,
+            0.09038939941133611
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1004,
+        "identity": -0.16597741014498307,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2175748924545165,
+            0.06858506048796738
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1005,
+        "identity": 0.05731719512675079,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.016046549104120844
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1006,
+        "identity": 0.08752585039124455,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07511126467642108
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1007,
+        "identity": 0.01736996409165567,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06401255443970127
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1008,
+        "identity": 0.041040911732629554,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05331461989574602
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1009,
+        "identity": 0.041356900643178734,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.11197169762033671,
+            -0.007688975602792532
+        ],
+        "int_length": 58
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1010,
+        "identity": -0.03806766499780684,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.042867024294350915
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1011,
+        "identity": 0.05604511187901587,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1498121048373208,
+            -0.13872084710814234,
+            -0.20428907195279722,
+            -0.07941018280266701
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1012,
+        "identity": -0.17037743284035295,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.31183296960424034,
+            0.02890157737539927
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1013,
+        "identity": 0.020533893212460907,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04484756940829199
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1014,
+        "identity": -0.0965522070437025,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.23557393886064648,
+            -0.06254783257968317
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1015,
+        "identity": 0.045904128577507614,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1262541339890475,
+            0.13590715171381113,
+            -0.11514949856608107,
+            0.000878877238167701
+        ],
+        "int_length": 60
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1016,
+        "identity": 0.1219089682706957,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.005256227409011036
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1017,
+        "identity": -0.13948722421605247,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.015897271038477795
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1018,
+        "identity": -0.15085170224020372,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.2297850502729319,
+            0.12301535998079403,
+            0.014425699874808587
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1019,
+        "identity": -0.06338904739624673,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.18755106641559946,
+            -0.036772483181185145
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1020,
+        "identity": 0.0932230967747033,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.10221046822492474,
+            0.011340028721347442
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1021,
+        "identity": 0.07210029138383156,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.16721526383571433,
+            0.11315476781707713,
+            -0.1574327868800029,
+            0.05139617859966701
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1022,
+        "identity": -0.13075074572631867,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.23131503641277917,
+            0.2622073215797928,
+            0.24668076066250857,
+            0.008251712763810648
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1023,
+        "identity": 0.1490651255100433,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.01804818138667992
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1024,
+        "identity": 0.05316884303831215,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.027733555359691915
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1025,
+        "identity": 0.03680949163724337,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.12534710201033603,
+            -0.058060585235960444
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1026,
+        "identity": -0.053407104359511626,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.00658099404678314
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1027,
+        "identity": -0.1405788287625209,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.25416481793367346,
+            -0.0014975307193980172
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1028,
+        "identity": 0.07945993051631528,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.12619445861590722,
+            -0.0021643781974616944
+        ],
+        "int_length": 62
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1029,
+        "identity": -0.16522565218555377,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.26244187284726844,
+            0.11393415809496169,
+            0.08183915349055562
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1030,
+        "identity": -0.016177060347721317,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.14731408467787635,
+            0.11829430556371717,
+            0.0025353617644853516
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1031,
+        "identity": -0.179633530403974,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06891569946935377
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1032,
+        "identity": -0.026178599383491985,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.11975503377798893,
+            -0.13215142279148664,
+            0.18140338459149805,
+            -0.030218695661280548
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1033,
+        "identity": -0.0047041843116240045,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.10373392856006171,
+            -0.12165754839794887,
+            -0.08427826649329732
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1034,
+        "identity": 0.11011665192852715,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09438344442375748,
+            -0.2112136503101941,
+            0.02449461518832241
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1035,
+        "identity": -0.17544238762269385,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.031196437865738336
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1036,
+        "identity": 0.0935167387318982,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.13767857775451386,
+            -0.1622539510361391,
+            0.005600733579137027
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1037,
+        "identity": 0.03470940639506337,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04980222160230596
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1038,
+        "identity": 0.10959605748117046,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.18775429106116104,
+            -0.10353418434859238,
+            0.013376164661219908
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1039,
+        "identity": -0.016358045439543056,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.012901789752725044
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1040,
+        "identity": 0.11889797445964173,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.12537732868568152,
+            -0.1135612024165019,
+            -0.0907788532081707,
+            0.0774820526411537
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1041,
+        "identity": -0.17219799229092184,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.049115786508434844
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1042,
+        "identity": -0.06468718547731546,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.043914928152963446
+        ],
+        "int_length": 62
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1043,
+        "identity": 0.01846273580091301,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06134133418799036
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1044,
+        "identity": -0.13832897910866443,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.036870964729039966
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1045,
+        "identity": 0.09164027116195395,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.15472067793747496,
+            -0.11276561397963007,
+            -0.14393217091621324,
+            -0.09769627207252005,
+            -0.01841528946743181
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1046,
+        "identity": -0.17936471550042332,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.08489908195832267
+        ],
+        "int_length": 60
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1047,
+        "identity": 0.10882488999344458,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.18342167487308486,
+            -0.07035304531303195
+        ],
+        "int_length": 75
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1048,
+        "identity": 0.023500168081166894,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.00902537001741368
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1049,
+        "identity": 0.0900917291613112,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05674491528755239
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1050,
+        "identity": 0.1499929552718589,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.02377637737828525
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1051,
+        "identity": 0.0024691752489626184,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.15851141833910218,
+            -0.08253592948994722
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1052,
+        "identity": 0.059585493188955174,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.003200430952711983
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1053,
+        "identity": 0.05194578970377739,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08847328130180698,
+            -0.030708807597920197
+        ],
+        "int_length": 56
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1054,
+        "identity": 0.1262348513456888,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.03729117864074391
+        ],
+        "int_length": 62
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1055,
+        "identity": -0.05102625111626294,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.13233922304358464,
+            0.13796531241228568,
+            -0.020769113797727744
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1056,
+        "identity": -0.04243991453339249,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.061197731848313806
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1057,
+        "identity": -0.05497195470770777,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.15797032759876112,
+            0.1900145412393081,
+            -0.02204534627438079
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1058,
+        "identity": -0.11970118384908009,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.07400906237824587
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1059,
+        "identity": -0.053325474737328155,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.19286620912211222,
+            -0.0469595724727442
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1060,
+        "identity": 0.02316697791917216,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0935538378693788
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1061,
+        "identity": -0.030254666910386835,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08307145067535254,
+            -0.042049941993874136
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1062,
+        "identity": 0.03397946894635612,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            0.15159242787736868,
+            -0.16297731324409756,
+            -0.09986191393700529,
+            -0.09034679051799666,
+            0.034548720323050494
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1063,
+        "identity": -0.06537439038865295,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.018905049186876327
+        ],
+        "int_length": 60
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1064,
+        "identity": -0.06589312000781766,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0506356957229295
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1065,
+        "identity": -0.16988658386707145,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2683269920229226,
+            0.0020153852752710297
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1066,
+        "identity": -0.05147361877534379,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09184158459898853,
+            -0.13785976906348063,
+            -0.06517105177934454
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1067,
+        "identity": -0.14671567285905762,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.16167376661902644,
+            0.21510775266208843,
+            0.034017140484635854
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1068,
+        "identity": 0.14764633707585767,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.13991500795781955,
+            0.01906854876953218
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1069,
+        "identity": -0.07587344970263067,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06887483541141344
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1070,
+        "identity": -0.10498274204002161,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.11881825437210132,
+            0.1880414259523649,
+            0.13330713703089148,
+            -0.07381524660409276
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1071,
+        "identity": -0.023218871079034198,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.03970639314349349
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1072,
+        "identity": 0.08567449606029603,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.139224135125382,
+            -0.1461518868918328,
+            0.018366111495802098
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1073,
+        "identity": -0.06774638894711177,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06541283943134123
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1074,
+        "identity": 0.048999170300069395,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04197796512336237
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1075,
+        "identity": 0.07283283557978953,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.09764967612247467,
+            0.11690382024421449,
+            -0.11727767085913864,
+            0.012507798114062746
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1076,
+        "identity": 0.16281302721810526,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.20423734915911204,
+            -0.21791168845730838,
+            -0.08145184271703416
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1077,
+        "identity": 0.0234293888686172,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.14846013246598544,
+            0.06000135056688153
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1078,
+        "identity": -0.09168632534809959,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.15351833767038126,
+            -0.14350216368915972,
+            -0.0169514151789421
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1079,
+        "identity": -0.053910668260918615,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.20456593935965273,
+            -0.07781552718646825
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1080,
+        "identity": -0.020552345810852385,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.09735402595292597,
+            0.0009019065291386089
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1081,
+        "identity": -0.05149091080974014,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.10149858657402962,
+            0.03508476675252557
+        ],
+        "int_length": 60
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1082,
+        "identity": -0.0018441438184375603,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.19654449958732745,
+            -0.014086181109476788
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1083,
+        "identity": -0.11348491852853959,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.05225169481171879
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1084,
+        "identity": -0.13656057613759426,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.015759393701209844
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1085,
+        "identity": -0.04908204394149668,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05495962407164568
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1086,
+        "identity": 0.08880623743387323,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09085787410376173,
+            -0.1566032474932873,
+            -0.045890309240430416
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1087,
+        "identity": -0.12077036527314915,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.03471113332830675
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1088,
+        "identity": -0.04997518095721287,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.18109208088872342,
+            0.058334921372294374
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1089,
+        "identity": 0.03267788463262403,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06747310696147577
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1090,
+        "identity": -0.12341276736537259,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.11438325270427784,
+            -0.030517330726554423
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1091,
+        "identity": -0.06188236533662164,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.022074353983008735
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1092,
+        "identity": -0.1364156092742742,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.2738298382881892,
+            0.2647049584286329,
+            -0.001741829015876023
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1093,
+        "identity": -0.013893580698389252,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07665294348018446
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1094,
+        "identity": 0.11510363895334758,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.07814039989682013
+        ],
+        "int_length": 77
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1095,
+        "identity": -0.021040961168350664,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07082336260251701
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1096,
+        "identity": -0.02653989437798468,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1702189496333821,
+            0.006643361163937746
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1097,
+        "identity": 0.15811804051407335,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.12589086124343601,
+            0.03992769502642135
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1098,
+        "identity": -0.0062473017883434845,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.09420545206161557,
+            -0.05357673284223239
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1099,
+        "identity": -0.011917803541179689,
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            0.11611131404260142,
+            -0.15988459207488168,
+            -0.0957026469149656,
+            0.09861006090229271,
+            0.110358797937642,
+            -0.05904129707626842
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1100,
+        "identity": -0.11792043087936932,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03980854100970739
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1101,
+        "identity": 0.11919177495522432,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.10218036855347959,
+            0.015316017655551573
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1102,
+        "identity": -0.0701317791631532,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2430089535020724,
+            -0.028040826449587913
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1103,
+        "identity": -0.13207091891509656,
+        "success": true,
+        "trials": 8,
+        "pred_identity": [
+            0.24613438456392697,
+            0.1911678378711839,
+            0.2694349106060671,
+            0.17960428983173965,
+            0.12499758454060567,
+            0.18051053253122679,
+            0.1496345603874533,
+            0.2277713189456597,
+            0.03641510718972553
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1104,
+        "identity": 0.02209355251724182,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08771318687237836,
+            0.09500890964964986
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1105,
+        "identity": 0.015783089361874336,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.037816817356129795
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1106,
+        "identity": -0.00417726770958729,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03623304183076285
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1107,
+        "identity": -0.04266858976711946,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0015760803419129533
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1108,
+        "identity": 0.12116867447485768,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.10865484762999912,
+            0.03501391817693779
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1109,
+        "identity": 0.05424725541417191,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.18599534919018235,
+            -0.13512645739789975,
+            -0.007177832394434126
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1110,
+        "identity": -0.1486002451020037,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06184417223053566
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1111,
+        "identity": -0.14560228828484567,
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            0.17844499816210774,
+            0.13883018809202607,
+            0.2731480410480547,
+            0.209974519074768,
+            0.24944274970939645,
+            0.04622027953430517
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1112,
+        "identity": -0.15150944646409262,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.12743480288169856,
+            0.17100212700162554,
+            -0.0272439888155777
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1113,
+        "identity": 0.1731728385304766,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.19300653117837532,
+            -0.07598540569250675
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1114,
+        "identity": -0.125568780369362,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1754161906290661,
+            -0.048780201947089416
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1115,
+        "identity": -0.03535763207169915,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            0.15995732252818784,
+            0.17842254014606634,
+            0.21192564033191172,
+            0.1749931166408623,
+            -0.06953534772458847
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1116,
+        "identity": 0.09817161720753198,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.013074571003339634
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1117,
+        "identity": -0.09282042816866941,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.17148837379448018,
+            0.22141404444949347,
+            0.06525356460104022
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1118,
+        "identity": 0.09462018366901875,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.13491576315887785,
+            -0.10796976570579318,
+            -0.10602522892324671,
+            0.01876592415616271
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1119,
+        "identity": -0.1264059145300187,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.044160923362457985
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1120,
+        "identity": 0.07949785325043385,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.002535678984179432
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1121,
+        "identity": -0.010278675766753259,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.10904079593104145,
+            0.010508021694558849
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1122,
+        "identity": 0.06305664434359043,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.18633479660966426,
+            -0.13464521856893802,
+            0.030926750947614996
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1123,
+        "identity": -0.06681304629917095,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.21015822848690077,
+            -0.08680185177036101
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1124,
+        "identity": -0.06612366666007603,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.02618798432084629
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1125,
+        "identity": 0.13691878655238132,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.009487520880792272
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1126,
+        "identity": 0.1356708415141481,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.17018898124776094,
+            -0.031020226388034408
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1127,
+        "identity": -0.16677743128132483,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.019470300921099665
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1128,
+        "identity": 0.08578884592805142,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.16539252696726414,
+            -0.19794773966178686,
+            -0.05155183050305995
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1129,
+        "identity": 0.17622610075241246,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.020193710282984917
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1130,
+        "identity": -0.04353084783090033,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.10544113275464488,
+            0.010503810154052669
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1131,
+        "identity": -0.0688435900163742,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.176519362580429,
+            0.02981256803795415
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1132,
+        "identity": 0.14028153150447953,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03512154203703387
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1133,
+        "identity": -0.06305900630831579,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09391287697162706,
+            -0.09736674248409405,
+            -0.032752821093871475
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1134,
+        "identity": -0.16750178752694925,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.23853921125541727,
+            0.0037199357812978187
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1135,
+        "identity": -0.09631531037224214,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.02848776020244162
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1136,
+        "identity": -0.1276781356961693,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.14307146572092752,
+            -0.0513399451256943
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1137,
+        "identity": 0.10850848873756785,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.014702585309038646
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1138,
+        "identity": -0.1208934545008638,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.024008754007469005
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1139,
+        "identity": -0.10890704121966811,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.152211702342647,
+            0.19733095875149007,
+            -0.040748185799739274
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1140,
+        "identity": -0.08432342547888047,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0421881356707978
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1141,
+        "identity": -0.09538206370540915,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0295439339759761
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1142,
+        "identity": 0.14815683902372856,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.18934432452966204,
+            -0.20168393883917415,
+            -0.181660207030788,
+            -0.05358085818149054
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1143,
+        "identity": -0.15435987693440784,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.20096558325873543,
+            0.15358171213478763,
+            0.06435588237470811
+        ],
+        "int_length": 57
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1144,
+        "identity": -0.03369460177212161,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.02582699847696484
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1145,
+        "identity": 0.17255505964716122,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.16552449971528968,
+            0.1046691967257043,
+            -0.24129399873590202,
+            -0.1978862426186061,
+            -0.06241026118833244
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1146,
+        "identity": -0.17964609371726745,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06695088519632483
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1147,
+        "identity": -0.03332294350756676,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.1380952448110059,
+            -0.08527759314538583,
+            -0.07649464534532306
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1148,
+        "identity": -0.13277415569339313,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.12150503329040721,
+            -0.008447137679875913
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1149,
+        "identity": -0.12394571940650584,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03978263611783812
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1150,
+        "identity": 0.06552192587926989,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.09887092770658706,
+            -0.07554490484899015
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1151,
+        "identity": 0.056869783087340864,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06762661009944022
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1152,
+        "identity": 0.09117375930385607,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09492282018060635,
+            -0.17167172555909715,
+            0.07903374124125591
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1153,
+        "identity": 0.06754986611004524,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.060611839967250475
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1154,
+        "identity": -0.134584363464988,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.23382507009717896,
+            0.11456750639068822,
+            -0.031646134126827194
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1155,
+        "identity": 0.024890392991231858,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.15216449543152738,
+            -0.09162448972535142,
+            -0.07493550418288777
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1156,
+        "identity": 0.01507995270842441,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.17505672372200187,
+            0.07337199109544744
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1157,
+        "identity": -0.10892840833223001,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.038756249977932374
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1158,
+        "identity": 0.027137971910504516,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.04262632555772141
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1159,
+        "identity": -0.13198460556930225,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2290863747576862,
+            -0.009371895898485652
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1160,
+        "identity": -0.17554063627008076,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2762732524599554,
+            0.005049154217293864
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1161,
+        "identity": -0.012605165652788047,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.09716344630785911,
+            -0.07443727822732049
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1162,
+        "identity": 0.07435997927527377,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.036921759780761634
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1163,
+        "identity": -0.03766252759910246,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06026397227230322
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1164,
+        "identity": -0.16529703435704038,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.042547417876694194
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1165,
+        "identity": -0.061576866595794366,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0024540101099492367
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1166,
+        "identity": -0.013582160098051299,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0589206711966646
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1167,
+        "identity": -0.051307608196302035,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.19529417200996815,
+            0.07155534887791307
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1168,
+        "identity": -0.029785752224798567,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07242178578786153
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1169,
+        "identity": 0.0893602894724509,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1069442011820463,
+            -0.18585853949431974,
+            -0.02339023509472085
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1170,
+        "identity": 0.13948575067837493,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.22154095624209252,
+            -0.12994782005147879,
+            -0.20284252411362816,
+            -0.17712256433442308,
+            0.035739941747388884
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1171,
+        "identity": 0.015336505763498598,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08867458199609526,
+            -0.05564049712597215
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1172,
+        "identity": 0.13006909338616185,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09105279403289318,
+            -0.18231983762538045,
+            -0.05089846166350914
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1173,
+        "identity": -0.02754629038337303,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.004080686104071394
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1174,
+        "identity": 0.033582717902740866,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.01659365139737882
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1175,
+        "identity": 0.0752098184448467,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.11986104748033928,
+            -0.10340366667181213,
+            0.12164650255802635,
+            0.04239122004244189
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1176,
+        "identity": 0.032814173226905274,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.24112964333825443,
+            0.06983678102514244
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1177,
+        "identity": -0.0746841235574887,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.03496652241172998
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1178,
+        "identity": 0.16007399763191232,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07932719175935601
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1179,
+        "identity": -0.023135436399287113,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.09850847081636631
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1180,
+        "identity": -0.022100974565772147,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.07727614753027721
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1181,
+        "identity": -0.02478534956590417,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04909657467567624
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1182,
+        "identity": 0.080306446612252,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.05508571445652631
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1183,
+        "identity": -0.011086389569594263,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05858513905489956
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1184,
+        "identity": -0.009984950906600093,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.13631662259582206,
+            0.01765600524685601
+        ],
+        "int_length": 60
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1185,
+        "identity": -0.14022555458753463,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.007147704219645584
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1186,
+        "identity": 0.07794451947207176,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.13583695190775918,
+            -0.007089975075514794
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1187,
+        "identity": 0.13584022826950432,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.15832348787778963,
+            -0.10693066788297474,
+            0.035673881549105946
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1188,
+        "identity": -0.1138442586410077,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.11692485110382742,
+            0.08009876081749806
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1189,
+        "identity": 0.12037562138404861,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.01507180644022138
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1190,
+        "identity": -0.028205058968298002,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.02264327489105216
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1191,
+        "identity": 0.0640351204100387,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.10841911096667568,
+            -0.1641817799790175,
+            -0.12039004036060552,
+            -0.15187172809934402,
+            -0.041831845190882566
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1192,
+        "identity": 0.17408827680422173,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.009179613392813618
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1193,
+        "identity": 0.17066570231961642,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.2789251929621287,
+            -0.09346370923933592,
+            -0.21074779783712805,
+            -0.1679977841213759,
+            0.004712721699943398
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1194,
+        "identity": 0.12298420101547752,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.1417859696686029,
+            0.06952201659017274
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1195,
+        "identity": 0.09816400836178302,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.13616603765351187,
+            -0.07836394525427204
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1196,
+        "identity": 0.0326598690804068,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.1416178218147721,
+            -0.04981607857251322
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1197,
+        "identity": 0.14400241663501234,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07261708117858601
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1198,
+        "identity": 0.04214054679556267,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.004500275191985453
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1199,
+        "identity": 0.04015930016595087,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.04399281569557888
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1200,
+        "identity": 0.022303325299809967,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.13670060783608617,
+            -0.03629700776871908
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1201,
+        "identity": 0.07157989631177197,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.11539248598331872,
+            0.11794296560704345,
+            0.01245707152038264
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1202,
+        "identity": 0.019759865658454945,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.08888845222467912
+        ],
+        "int_length": 76
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1203,
+        "identity": 0.044851292078645855,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.023259325929483925
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1204,
+        "identity": 0.05221414461159016,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.18429228476683732,
+            0.0008073077990605748
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1205,
+        "identity": -0.08664757856342266,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05067309111259029
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1206,
+        "identity": 0.11074286285752066,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.046765727896918075
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1207,
+        "identity": 0.10337934330235393,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.005379808666714364
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1208,
+        "identity": -0.16452320424680403,
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            0.2366407101100319,
+            0.2071978540001687,
+            0.23277346119870468,
+            0.11597074721022008,
+            0.20149412687532592,
+            -0.0064309130144483
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1209,
+        "identity": -0.06801831750477542,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.044753522126679615
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1210,
+        "identity": -0.06896776666909127,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.09956690819101312,
+            0.13633719539780542,
+            0.1571319355171363,
+            0.058206756175916724
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1211,
+        "identity": 0.1542672554049303,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0029232443069924924
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1212,
+        "identity": -0.09169660442534801,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.055369267744952294
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1213,
+        "identity": -0.06522744442531105,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04002002776561575
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1214,
+        "identity": -0.060414996025685994,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.11248114643456807,
+            -0.05196467007318063
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1215,
+        "identity": -0.018778571866908983,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09583543855450882,
+            0.13965677806494103,
+            -0.0611573114211178
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1216,
+        "identity": 0.17841534584068097,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06469478665531084
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1217,
+        "identity": 0.07880093128962057,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.0839686582215,
+            -0.12561199611114293,
+            -0.15265051495141252,
+            0.035082143617113024
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1218,
+        "identity": 0.07380975316741212,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07601802188549317
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1219,
+        "identity": -0.012605039442757343,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.13362014179560075,
+            0.060168179623733636
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1220,
+        "identity": -0.1109474211229805,
+        "success": true,
+        "trials": 8,
+        "pred_identity": [
+            0.2376241884496118,
+            0.10048610413035522,
+            0.13751008504869092,
+            0.2591385995293232,
+            0.14341456041598954,
+            0.2199222393499943,
+            0.25845008247719126,
+            0.19645188936141966,
+            0.009709986329065643
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1221,
+        "identity": -0.010998546091138373,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.17426429651762768,
+            0.12771626152303647,
+            -0.1264504574535148,
+            -0.07870999811776694
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1222,
+        "identity": -0.15570529941753913,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.017409900175962924
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1223,
+        "identity": 0.010467647511015643,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04988626055365981
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1224,
+        "identity": 0.08084319164380788,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.19910783511955776,
+            0.03746182909011926
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1225,
+        "identity": 0.037359454586651825,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08885607445154291,
+            -0.03975784081633148
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1226,
+        "identity": -0.030215479626633124,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04528398751670423
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1227,
+        "identity": -0.04128744032346196,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.17557052004559143,
+            0.16435040589631045,
+            -0.05288206868766552
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1228,
+        "identity": -0.0329905395177533,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.04599920361402183
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1229,
+        "identity": -0.063922884065524,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.01531020631933229
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1230,
+        "identity": -0.08027052854332935,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.09775137533245531,
+            0.2265271497833466,
+            -0.0024700870766142524
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1231,
+        "identity": -0.0234047897680687,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.14665178508942736,
+            0.14532187180210276,
+            -0.012394532889575531
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1232,
+        "identity": 0.0003587639981099122,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05287782741945928
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1233,
+        "identity": 0.10311748452439651,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.14446943427178763,
+            -0.10351251559835845,
+            -0.14739518670274354,
+            -0.04344053963490906
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1234,
+        "identity": -0.11105299786359878,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07406782123537106
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1235,
+        "identity": 0.1633545296106267,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1504387017914646,
+            -0.1605385513168511,
+            -0.2454652572579638,
+            0.012066863139630582
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1236,
+        "identity": -0.08712041918720283,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04902457521303407
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1237,
+        "identity": 0.08182087236433344,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03761553775487654
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1238,
+        "identity": 0.15392117725081444,
+        "success": true,
+        "trials": 6,
+        "pred_identity": [
+            -0.12767208691602527,
+            -0.11554424565950167,
+            -0.1696351274492707,
+            -0.19866347048440627,
+            -0.22735986555269697,
+            -0.15738484477494943,
+            -0.02048231006733303
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1239,
+        "identity": 0.002216339158608277,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.14041902494831485,
+            0.07049084804365305
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1240,
+        "identity": 0.09689518127300051,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.09952211697103198,
+            -0.06312096080797669
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1241,
+        "identity": 0.17895394160665595,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.001961912331578247
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1242,
+        "identity": 0.12647474493406685,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.17920096335721547,
+            0.005859275868805566
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1243,
+        "identity": 0.17640308722401937,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.08352137254875766,
+            -0.2140333106682247,
+            -0.2607080172045061,
+            -0.20448189373611442,
+            -0.04855274061097462
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1244,
+        "identity": 0.060625213034119135,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.1793162499378663,
+            -0.00443688981167166
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1245,
+        "identity": -0.05980564366001072,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03139808325573642
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1246,
+        "identity": -0.1212326628160861,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.23371165025731505,
+            -0.03376324705881582
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1247,
+        "identity": 0.018246878278526085,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.02587089356678469
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1248,
+        "identity": -0.07333564201228188,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.02751782728585308
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1249,
+        "identity": 0.17316960636710538,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.1460953237607031,
+            0.023414537612175518
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1250,
+        "identity": -0.16442988066365466,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.02149904993031919
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1251,
+        "identity": 0.031123205140916904,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07710933082714788
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1252,
+        "identity": -0.007867609445777496,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.06599211918215768
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1253,
+        "identity": -0.12272533095603218,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.006694300141102276
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1254,
+        "identity": 0.05295298749335686,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.11517623575541841,
+            -0.051442627351327555
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1255,
+        "identity": -0.09013134161095937,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.08082413232716815
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1256,
+        "identity": 0.1702231290542649,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.026900837681493248
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1257,
+        "identity": -0.16443354088251522,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.24088734079174492,
+            -0.006916597716630266
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1258,
+        "identity": -0.09284949998326847,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.08515507854456615
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1259,
+        "identity": 0.10645358896413298,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.05195564237225267
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1260,
+        "identity": -0.039765229226184556,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05397257701979182
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1261,
+        "identity": -0.12229419951502543,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.19655464362842537,
+            0.0623621436929386
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1262,
+        "identity": 0.11859957568681107,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.20888859738464927,
+            0.014118020046988977
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1263,
+        "identity": -0.12551783469902325,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.018035966586076164
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1264,
+        "identity": -0.08503411727802673,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.031068553459117194
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1265,
+        "identity": -0.15029666247056853,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0006238419762693639
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1266,
+        "identity": 0.1691614148379083,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1090800029545961,
+            -0.12172383194153483,
+            -0.009019946703665682
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1267,
+        "identity": 0.10088655452129847,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06820132328049425
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1268,
+        "identity": 0.17785678984226488,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.15457160370381318,
+            -0.18590188324267817,
+            -0.20688977858164112,
+            -0.2711845823939335,
+            -0.050506804884111606
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1269,
+        "identity": 0.10457082842376242,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.08809020473611541,
+            -0.14220461565415138,
+            -0.03057881347555185
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1270,
+        "identity": 0.07854345123764994,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1549194528082835,
+            0.14933428067581883,
+            0.1197631098235392,
+            -0.07096302074603214
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1271,
+        "identity": -0.14946474141923347,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.038343136927964955
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1272,
+        "identity": 0.0719124289011207,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.15852624156463963,
+            -0.01644737791465343
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1273,
+        "identity": -0.16684759723801443,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.024557974863005788
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1274,
+        "identity": 0.09956107944911824,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.084829015620019,
+            0.061372255617608965
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1275,
+        "identity": -0.10009878432553627,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0760311121656344
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1276,
+        "identity": -0.024771262323582816,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2068923452679442,
+            -0.06397126393140136
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1277,
+        "identity": -0.13441635306779817,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.022368765188499506
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1278,
+        "identity": -0.09177318492289761,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.00011507347132520829
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1279,
+        "identity": 0.12464409413400124,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1194783800774512,
+            -0.10443161930840794,
+            -0.07156830619876015
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1280,
+        "identity": 0.1064659239398717,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.18376195966600967,
+            -0.2409788836879378,
+            -0.07446105739181905
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1281,
+        "identity": -0.08513142599282321,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04594176518976733
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1282,
+        "identity": 0.1263836863770576,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.017114203478967055
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1283,
+        "identity": -0.15412427954956948,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0065170033201302005
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1284,
+        "identity": 0.09891537698452335,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1373897506651987,
+            -0.1694938450505808,
+            -0.07188524333287398
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1285,
+        "identity": -0.15219150146251587,
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            0.25027785717770845,
+            0.10101337885252991,
+            0.26502811087706757,
+            0.252866927160761,
+            0.1499794798540488,
+            -0.020106041147546216
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1286,
+        "identity": -0.14914934487405235,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1303476476767418,
+            -0.02491127398041687
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1287,
+        "identity": -0.09979274292137834,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06263171806668419
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1288,
+        "identity": -0.05335617912699839,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.11553273305525935,
+            -0.06411511343448248
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1289,
+        "identity": 0.1189826767961446,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.004622200847377175
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1290,
+        "identity": -0.07902498464972939,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0692300427371978
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1291,
+        "identity": -0.15079977438437675,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.03957002578184829
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1292,
+        "identity": 0.06214220645398577,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05309059520577174
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1293,
+        "identity": -0.17541443262405473,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.07223180084229996
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1294,
+        "identity": 0.1675940457726579,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.005568119318512893
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1295,
+        "identity": -0.005929704863708751,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.08855282618929665,
+            0.05224844686784068
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1296,
+        "identity": 0.15516468372588826,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.20083937167553953,
+            -0.012992016160981251
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1297,
+        "identity": -0.17806694389383396,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2602321823552076,
+            0.06903902415869756
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1298,
+        "identity": 0.01428663363813662,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1464603892525892,
+            0.28056551700236554,
+            0.12246406769917526,
+            0.03584102706697268
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1299,
+        "identity": -0.022710726309172008,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1330964146184572,
+            -0.00995058458000583
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1300,
+        "identity": -0.06465306803431771,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.05483332716691146
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1301,
+        "identity": -0.04537776949861294,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.041588494689371924
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1302,
+        "identity": 0.12461356858937223,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07219148323228286
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1303,
+        "identity": 0.15635641615813944,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06710889912484994
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1304,
+        "identity": 0.13830173839543874,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05954723411498248
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1305,
+        "identity": -0.04685781883944162,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.12757668032069275,
+            -0.04831456253509687
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1306,
+        "identity": 0.004148729915785021,
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            -0.08849251672188967,
+            0.15158615447159204,
+            -0.09098666813963267,
+            -0.09677507103377726,
+            -0.14554963873963275,
+            -0.16822108978509806,
+            -0.09102525563376665,
+            -0.06681843324927303
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1307,
+        "identity": 0.16984587525554667,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.11584994446227417,
+            -0.01570434237496854
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1308,
+        "identity": -0.11468226358253374,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.27273227960320073,
+            0.14980037251625056,
+            0.20621318887866474,
+            -0.015724367972291008
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1309,
+        "identity": -0.08119447627118004,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.07284485075344213
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1310,
+        "identity": 0.1661610512161399,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.09286976356515324,
+            -0.13669519455711418,
+            0.04891268033830598
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1311,
+        "identity": -0.11196093674582161,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0281633699174465
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1312,
+        "identity": -0.02469539167773782,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.15641537850963735,
+            0.06415713421238109
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1313,
+        "identity": 0.17730086927000505,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.09643436200681724,
+            -0.07022185404612324
+        ],
+        "int_length": 58
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1314,
+        "identity": 0.05332779488026601,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.20176668728151345,
+            0.12077160579305204,
+            0.06452344358574105
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1315,
+        "identity": -0.11247796308560215,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.20438118145197523,
+            0.16771741925177253,
+            -0.0356201338479049
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1316,
+        "identity": -0.1270368420555596,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.020650819041881836
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1317,
+        "identity": -0.12666476146349973,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            0.22627562559648107,
+            0.1799514650439043,
+            0.22246845451184205,
+            0.2311373045251926,
+            -0.01939345431807607
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1318,
+        "identity": -0.15297602702165652,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2564808981992235,
+            0.04705174221351004
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1319,
+        "identity": 0.04461384619705089,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.020621607373164548
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1320,
+        "identity": 0.1291661664031461,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.12164891681622335,
+            -0.05316403750189234
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1321,
+        "identity": -0.0998970341968597,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.04059158593724849
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1322,
+        "identity": -0.09913957598870844,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0560585318722373
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1323,
+        "identity": -0.10806694455823831,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.059873942789083257
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1324,
+        "identity": 0.1767936915985947,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05206842863322933
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1325,
+        "identity": 0.11135342863143732,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.011672383615172172
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1326,
+        "identity": 0.11664199552163668,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.07342999014097154
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1327,
+        "identity": 0.025878218820769933,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.14033444569060205,
+            0.14504114587432426,
+            -0.10312084991982179,
+            0.05154893126861488
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1328,
+        "identity": -0.05032800142751956,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0006293086718481868
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1329,
+        "identity": 0.16560283601001846,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.019019756291476522
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1330,
+        "identity": -0.09720803568015789,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.01657868624773555
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1331,
+        "identity": -0.1677626738252953,
+        "success": true,
+        "trials": 5,
+        "pred_identity": [
+            0.15558782086197742,
+            0.22492981582389932,
+            0.09801721903164012,
+            0.2603808622782287,
+            0.11455749511994738,
+            -0.002797627506682429
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1332,
+        "identity": 0.03686496198562805,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.17091073530454426,
+            -0.15630196567251886,
+            -0.14188090307638845,
+            0.13809802582165082,
+            0.024950417663996874
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1333,
+        "identity": -0.07214924681729888,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.054829612910964914
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1334,
+        "identity": 0.16597909191296262,
+        "success": true,
+        "trials": 7,
+        "pred_identity": [
+            -0.1477860326297933,
+            -0.2395183728642075,
+            -0.25337543391001827,
+            -0.18185691554891426,
+            -0.11138529471620319,
+            -0.11964258357856411,
+            -0.10471164882630996,
+            -0.013092094723489434
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1335,
+        "identity": -0.10030864806052814,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0003478571152286253
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1336,
+        "identity": 0.09780063076645445,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.10700328283272886
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1337,
+        "identity": -0.08567111699439059,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.003068382116784972
+        ],
+        "int_length": 63
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1338,
+        "identity": 0.038991159214419896,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05139011893548711
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1339,
+        "identity": -0.07605432084995656,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.12480764612719061,
+            0.05172633764658011
+        ],
+        "int_length": 64
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1340,
+        "identity": 0.16532883753283578,
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            -0.17699216851126032,
+            -0.10473416486056722,
+            -0.22287572176544249,
+            -0.10192561865239672,
+            -0.051037402411319585
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1341,
+        "identity": 0.0007250696606680984,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.14738826802016464,
+            0.1732241987850194,
+            -0.021065230838180956
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1342,
+        "identity": 0.062083354092981824,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.057071613773113684
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1343,
+        "identity": 0.10012861324953654,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.03815220004124609
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1344,
+        "identity": 0.03389402086526491,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.11345917873341778,
+            -0.05923170467196236
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1345,
+        "identity": -0.11757601597293853,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            6.334116576096893e-05
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1346,
+        "identity": 0.15270146828916642,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1248874319207337,
+            -0.21615514548705897,
+            -0.05172787156402474
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1347,
+        "identity": 0.08561574221986051,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.16919186797059083,
+            -0.11741087860925087,
+            -0.17190882408076957,
+            -0.0427064377603109
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1348,
+        "identity": 0.05403588113112606,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.058138080228895356
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1349,
+        "identity": -0.1472776704180902,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.029302593357392923
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1350,
+        "identity": -0.10555994561441334,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.01643140967591413
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1351,
+        "identity": -0.12979637273819275,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06464755561620646
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1352,
+        "identity": -0.10708791979667641,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.2906808275854458,
+            0.01808168328297741
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1353,
+        "identity": -0.11677675026469676,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.052584857719803396
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1354,
+        "identity": -0.02241150856166968,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.16623670176322586,
+            0.00501157770794327
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1355,
+        "identity": 0.04616455149130222,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.1053525293799201,
+            -0.11772299931551147,
+            -0.13431394966655233,
+            -0.012588839769089394
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1356,
+        "identity": -0.15338658234149785,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.04698428410077254
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1357,
+        "identity": -0.12872515068703447,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.23093887632064738,
+            0.030504284082903677
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1358,
+        "identity": 0.1565496284028841,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.051435855522192334
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1359,
+        "identity": 0.05261347221220222,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.01017687718642362
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1360,
+        "identity": -0.17637628954686513,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.03894260111015292,
+            -0.021044903813000712
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1361,
+        "identity": 0.1119849031856322,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0026541440972468328
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1362,
+        "identity": 0.068604130007097,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.15253985336341788,
+            -0.02985031836534295
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1363,
+        "identity": 0.0877172315601385,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0598205444410319
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1364,
+        "identity": -0.16260702946698077,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1494670447143095,
+            0.040758747807016694
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1365,
+        "identity": -0.1718106091538532,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.02457721648899404
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1366,
+        "identity": 0.151716420936916,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.10389598458086158,
+            0.00897940734038663
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1367,
+        "identity": 0.1390121022813116,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.17748482282833808,
+            -0.14495872445102384,
+            -0.08884004032673024,
+            0.006352062292354965
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1368,
+        "identity": -0.020421593968325186,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06939753494827804
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1369,
+        "identity": -0.11669261873938964,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.09746458329568262,
+            0.06543018603138623
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1370,
+        "identity": -0.04419765880363333,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.051260223830075405
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1371,
+        "identity": -0.16456845164947592,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.08248280792413294
+        ],
+        "int_length": 61
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1372,
+        "identity": -0.02741284637856617,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.1748156761732192,
+            0.19054735064435877,
+            0.16291892449583542,
+            -0.010184611833410729
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1373,
+        "identity": -0.15079353205172347,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.21262006398587255,
+            0.23651877833560625,
+            0.07669177982463671
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1374,
+        "identity": -0.03528600121750833,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.13846816108546575,
+            -0.021172694938216524
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1375,
+        "identity": 0.0038209171830525246,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0040190583344382495
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1376,
+        "identity": -0.017630474681309127,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.13523244194609713,
+            -0.1048461062924537,
+            0.1318236210101107,
+            -0.017479861109981207
+        ],
+        "int_length": 67
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1377,
+        "identity": 0.11986322453352666,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.039279221334479475
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1378,
+        "identity": -0.16041144220252512,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.006476628114444528
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1379,
+        "identity": -0.02053227463493154,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.1066867469210942,
+            -0.09721439436964618,
+            -0.07928612104850323
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1380,
+        "identity": 0.0758476322425139,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            -0.08549595429930917,
+            -0.16187527251528458,
+            -0.08614955023287302,
+            -0.037239941065064314
+        ],
+        "int_length": 66
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1381,
+        "identity": 0.14789888330208173,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.0754740982247279
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1382,
+        "identity": -0.16627743767293718,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.30662947063428475,
+            0.3816873566361833,
+            -0.02283909326663039
+        ],
+        "int_length": 71
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1383,
+        "identity": 0.1398642752998095,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            -0.1311395904287678,
+            -0.15531114574722965,
+            0.030461399945017384
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1384,
+        "identity": -0.10229766827460736,
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            0.18492234990551615,
+            0.23551740596516696,
+            0.09191921704851956
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1385,
+        "identity": -0.03502021043641193,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.009608577819990756
+        ],
+        "int_length": 65
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1386,
+        "identity": -0.0018670494258359038,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.1953266400949652,
+            -0.07419140565468328
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1387,
+        "identity": -0.0662578738311813,
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            0.19513045119982134,
+            -0.09896438989127362,
+            0.1238002685251654,
+            0.05269440234955804
+        ],
+        "int_length": 69
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1388,
+        "identity": 0.018929647642908082,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.06098303835981554
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1389,
+        "identity": -0.057807913898563074,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.15559093974074287,
+            -0.07090828180969425
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1390,
+        "identity": -0.12003172466837111,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0247365526766658
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1391,
+        "identity": -0.02050053083579617,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.004607114672216094
+        ],
+        "int_length": 55
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1392,
+        "identity": 0.06962337300498939,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.05909049871821362
+        ],
+        "int_length": 74
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1393,
+        "identity": 0.08355928409526298,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.027457385957458932
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1394,
+        "identity": -0.178660495464036,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.12229466119810298,
+            0.017647632014356908
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1395,
+        "identity": 0.15864207668589891,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            -0.04599236462153607
+        ],
+        "int_length": 72
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1396,
+        "identity": -0.03555277433065804,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.09088338350590054
+        ],
+        "int_length": 70
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1397,
+        "identity": -0.07218623055375764,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            0.17630984603502037,
+            -0.07622949443331438
+        ],
+        "int_length": 73
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1398,
+        "identity": -0.011909074538610898,
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            -0.0995470362601571,
+            0.034012764809381896
+        ],
+        "int_length": 68
+    },
+    {
+        "task": "pick_bar",
+        "seed": 1399,
+        "identity": -0.13575385187496203,
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            0.0627893112239405
+        ],
+        "int_length": 63
+    }
+]

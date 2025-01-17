@@ -11,3 +11,6 @@ test_env.py
 metaworld/metaworld/envs/mujoco/sawyer_xyz/v2/push_test/sawyer_push_test_v2.xml
 data/
 figures/
+dataset/
+ise_data/
+results_new/
