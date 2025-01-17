@@ -10,7 +10,7 @@ def main():
 
     # parser.add_argument('-t', '--task', type=str, required=True)
     parser.add_argument('-f', '--file', type=str, required=True)
-    
+    parser.add_argument('-r', '--running', action='store_true')
     args = parser.parse_args()
     
     # task_list = ['push_bar', 'pick_bar', 'open_box', 'turn_faucet']
@@ -20,7 +20,8 @@ def main():
     with open(args.file, 'r') as f:
         results = json.load(f)
         
-    results = results[:-1]
+    if args.running:
+        results = results[:-1]
         
     replan_list = []
     

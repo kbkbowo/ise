@@ -59,6 +59,5 @@ def main():
         plt.bar(args.categories, values, yerr=errors, capsize=5, color='skyblue', edgecolor='black')
     
     plt.savefig(f'figures/{args.name}.png')
-    
 if __name__ == '__main__':
     main()

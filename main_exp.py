@@ -353,7 +353,7 @@ class RejectionSampler:
             dist = torch.cdist(a_s, b_s, p=2)
             return dist
 
-        elif self.dist_metric == 'enc':
+        elif self.dist_metric == 'dinov2':
             
             a_s = rearrange(a_s, 'n f c h w -> n f c h w')
             b_s = rearrange(b_s, 'm f c h w -> m f c h w')
@@ -391,7 +391,12 @@ class RejectionSampler:
         TEMPERATURE = 3
         agg_dists_soft = torch.softmax(agg_dists_normalized * TEMPERATURE, dim=1)
         # print("AGG_DIST_REJECTION_SOFTMAX", agg_dists_soft)
-        return self.cached_plans[torch.distributions.Categorical(agg_dists_soft).sample().item()]
+        SOFT = False
+        if SOFT:
+            idx = torch.distributions.Categorical(agg_dists_soft).sample().item()
+        else:
+            idx = torch.argmax(agg_dists).item()
+        return self.cached_plans[idx]
 
 class ExplicitRetrievalModule():
     def __init__(self, task_name, training_seeds=10, max_training_offset=36, on=True, prob_based=False, temperature=40, pca=False, enc_method="clip", guidance=0.0, random_generation=0.0):
