@@ -439,6 +439,7 @@ class ExplicitRetrievalModule():
             # normalize the features
             norm = np.linalg.norm(projected, axis=1)
             projected = projected / norm[:, None]
+            self.features_pca = torch.from_numpy(projected).float().cuda()
             # self.features = torch.from_numpy(projected).float().cuda()
 
         try: 
@@ -510,7 +511,7 @@ class ExplicitRetrievalModule():
             # normalize the features
             norm = np.linalg.norm(projected, axis=1)
             projected = projected / norm[:, None]
-            # feat = torch.from_numpy(projected[0]).float().cuda()
+            feat = torch.from_numpy(projected[0]).float().cuda()
 
         if not self.prob_based:
             
@@ -524,24 +525,24 @@ class ExplicitRetrievalModule():
             
             def new_path(file):
                 parts = list(Path(file).parts)
-                parts[3] = parts[4]
+                parts[4] = parts[3]
                 return str(Path(*parts))
             
             if self.enc_method in ["clip", "custom", "dinov2"]:
-                print(feat.unsqueeze(0).shape, self.features.shape)
-                sim = torch.nn.functional.cosine_similarity(feat.unsqueeze(0), torch.tensor(self.features).cuda(), dim=1)
+                print(feat.unsqueeze(0).shape, self.features_pca.shape)
+                sim = torch.nn.functional.cosine_similarity(feat.unsqueeze(0), torch.tensor(self.features_pca).cuda(), dim=1)
             else: # euclidean distance
                 sim = -torch.cdist(feat.unsqueeze(0), self.filtered_feats, p=2).squeeze()
             rank = torch.argsort(sim, descending=True).cpu().numpy()
             prob = torch.softmax(sim * self.temperature, dim=0)
             nearest_idx = torch.multinomial(prob, n, replacement=True).cpu().numpy()
-            print(nearest_idx.shape)
+            # print(nearest_idx.shape)
             nearest_idx = nearest_idx.tolist()
             files = [self.files[i] for i in nearest_idx]
             print(files)
             new_files = [new_path(file) for file in files]
-            
-            print([self.files.index(file) for file in new_files])
+            print(new_files)
+            # print([self.files.index(file) for file in new_files])
             
             new_indices = [self.files.index(file) for file in new_files]
 

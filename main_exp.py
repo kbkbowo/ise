@@ -436,9 +436,13 @@ class ExplicitRetrievalModule():
                     seed = f"{seed_0}_{seed_1}"
                 # print(seed, push, cm)
                 # if (int(seed) < training_seeds) and (abs(int(cm) - int(push)) <= max_training_offset):
+                # print(cm, push)
+                # assert False
                 filtered_dict.append(key)
                 filtered_feats.append(value)
+                # out_feat = all_dict[f"{seed}_{cm}_{cm}"]
                 out_feat = all_dict[f"{seed}_{cm}_{cm}"]
+                
                 filtered_out_feats.append(out_feat)
             self.filtered_feats = torch.from_numpy(np.array(filtered_feats)).float().cuda()
             self.filtered_dict = filtered_dict

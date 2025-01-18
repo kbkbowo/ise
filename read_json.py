@@ -11,6 +11,7 @@ def main():
     # parser.add_argument('-t', '--task', type=str, required=True)
     parser.add_argument('-f', '--file', type=str, required=True)
     parser.add_argument('-r', '--running', action='store_true')
+    parser.add_argument('-s', '--seed', type=int, default=0)
     args = parser.parse_args()
     
     # task_list = ['push_bar', 'pick_bar', 'open_box', 'turn_faucet']
@@ -22,6 +23,9 @@ def main():
         
     if args.running:
         results = results[:-1]
+        
+    if args.seed != 0:
+        results = results[:args.seed]
         
     replan_list = []
     

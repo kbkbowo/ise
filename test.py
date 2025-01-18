@@ -1,12 +1,18 @@
-import torch
+import numpy
 
-x = torch.tensor([0.7066, 0.0267, 0.0330, 0.7064])
-x = x.unsqueeze(0)
+file = 'down_dataset/push_bar/dinov2/all_feats.npy'
 
-# x_normalized = torch.nn.functional.normalize(x, p=2, dim=1)
+data = numpy.load(file, allow_pickle=True).item()
 
-y = torch.softmax(x * 3, dim=1)
-print(y)
+# print(data.items())
 
-z = torch.distributions.Categorical(y).sample()
-print(z)
+keys = list(data.keys())
+values = list(data.values())
+
+keys = keys[:10]
+values = values[:10]
+
+for i in range(len(keys)):
+    print(keys[i], len(values[i]))
+# print(keys, values.shape)
+
