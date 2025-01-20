@@ -5,5 +5,6 @@
     "faucet-close-v2-goal-observable": [38, 39, 40, 41, 42],
     "box-open-v2-goal-observable": [41, 42, 43, 44, 45, 46, 47, 48],
     "box-slide-v2-goal-observable": [43, 44, 45, 46, 47, 48, 49, 50, 51],
-    "push-alphabet-v2-goal-observable": [25, 27]
+    "push-alphabet-v2-goal-observable": [25, 27],
+    "brick-slide-v2-goal-observable": []
 }

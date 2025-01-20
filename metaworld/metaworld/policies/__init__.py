@@ -92,6 +92,9 @@ from metaworld.policies.sawyer_push_alphabet_v2_policy import SawyerPushAlphabet
 from metaworld.policies.sawyer_pick_bar_v2_policy import SawyerPickBarV2Policy
 from metaworld.policies.sawyer_button_press_topdown_multiple_v2_policy import SawyerButtonPressTopdownMultipleV2Policy
 from metaworld.policies.sawyer_lever_side_v2_policy import SawyerLeverSideV2Policy
+
+from metaworld.policies.sawyer_brick_slide_v2_policy import SawyerBrickSlideV2Policy
+
 __all__ = [
     'SawyerAssemblyV1Policy',
     'SawyerAssemblyV2Policy',

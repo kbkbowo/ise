@@ -166,8 +166,10 @@ class MujocoEnv(gym.Env, abc.ABC):
         if self.viewer is None:
             if mode == 'human':
                 self.viewer = mujoco_py.MjViewer(self.sim)
+                self.viewer.vopt.flags[mujoco_py.const.VIS_SITE] = True
             self.viewer_setup()
             self._viewers[mode] = self.viewer
+
         self.viewer_setup()
         return self.viewer
 

@@ -58,6 +58,8 @@ from metaworld.envs.mujoco.sawyer_xyz.v2.sawyer_faucet_io_v2 import SawyerFaucet
 from metaworld.envs.mujoco.sawyer_xyz.v2.sawyer_button_press_topdown_multiple_v2 import SawyerButtonPressTopdownMultipleEnvV2
 from metaworld.envs.mujoco.sawyer_xyz.v2.sawyer_lever_side_v2 import SawyerLeverSideEnvV2
 
+from metaworld.envs.mujoco.sawyer_xyz.v2.sawyer_brick_slide_v2 import SawyerBrickSlideEnvV2
+
 __all__ = [
     'SawyerBoxOpenEnvV2',
     'SawyerBoxSlideEnvV2',

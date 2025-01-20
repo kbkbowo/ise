@@ -304,6 +304,7 @@ def collect_video(init_obs, env, policy, camera_name='corner3', resolution=(640,
         try:
             # print(env.step(action))
             obs, reward, done, info = env.step(np.float64(action))
+            # print(done)
             done = info['success']
             dd -= done
             episode_return += reward

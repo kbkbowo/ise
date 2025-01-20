@@ -54,6 +54,7 @@ from metaworld.envs.mujoco.sawyer_xyz.v1 import (
 from metaworld.envs.mujoco.sawyer_xyz.v2 import (
     SawyerBoxOpenEnvV2,
     SawyerBoxSlideEnvV2,
+    SawyerBrickSlideEnvV2,
     SawyerNutAssemblyEnvV2,
     SawyerBasketballEnvV2,
     SawyerBinPickingEnvV2,
@@ -227,6 +228,8 @@ ALL_V2_ENVIRONMENTS = OrderedDict((
     ('pick-bar-v2', SawyerPickBarEnvV2),
     ('button-press-topdown-multiple-v2', SawyerButtonPressTopdownMultipleEnvV2),
     ('lever-side-v2', SawyerLeverSideEnvV2),
+    
+    ('brick-slide-v2', SawyerBrickSlideEnvV2),
 ))
 
 _NUM_METAWORLD_ENVS = len(ALL_V1_ENVIRONMENTS)
