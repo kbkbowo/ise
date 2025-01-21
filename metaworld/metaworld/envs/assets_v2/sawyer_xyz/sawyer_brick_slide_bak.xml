@@ -1,0 +1,37 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <include file="../objects/assets/box_dependencies.xml"/>
+    <include file="../objects/assets/xyz_base_dependencies.xml"/>
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+
+        <body name="boxbody" euler="0.0 0.0 0.0" pos="0.0 0.7 0.00">
+            <geom material="box_red" pos="0.075 0.0 0.01375" size="0.07625 0.2 0.001" type="box" mass=".99"  friction="0.2 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+            <geom material="box_metal" pos="0.18 0.0 0.033" size="0.0305 0.2 0.001" type="box" mass=".99"  friction="0.2 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+            <geom material="box_red" pos="0.36 0.0 0.066" size="0.1525 0.2 0.001" type="box" mass=".99"  friction="0.2 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+            <geom material="box_wood" pos="1.110 0.0 0.2035" size="0.61 0.2 0.001" type="box" mass=".99"  friction="0.1 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+        </body>
+
+        <body name="top_link" euler="0.0 0.0 0.0" pos="-0.2 0.65 0.02">
+            <joint name="objjoint" type="free" limited='false' damping="0." armature="0."/>
+            <inertial pos="0 0 0" mass="100.75" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/>
+            <geom material="box_blue" pos="0.0 0.0 0.0" size="0.05 0.10 0.05" type="box" mass="1.20" friction="0.001 0.000 0.0000" euler="0.0 0.0 0.0"/>
+        </body>
+
+        <!-- <site name="fix_point0" pos="0 0.4 0.05" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+        <site name="fix_point1" pos="0 0.4 0.09" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+        <site name="fix_point2" pos="0 0.4 0.13" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+        <site name="fix_point3" pos="0 0.4 0.17" size="0.02" rgba="0 1 1 0.3" type="sphere"/> -->
+
+        <!-- <site name="goal" pos="0. 0.7 0.05" size="0.02"
+              rgba="0 0.8 0 1"/> -->
+    </worldbody>
+
+    <actuator>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>

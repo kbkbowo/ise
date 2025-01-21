@@ -56,7 +56,7 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
         for i, fric in enumerate(self.sim.model.geom_friction):
             print("INDEX", i, "FRICTION", fric)
             
-        friction = 0.4
+        friction = 0.3
         self.sim.model.geom_friction[36][0] = friction
         self.sim.model.geom_friction[37][0] = friction 
         self.sim.model.geom_friction[38][0] = friction
@@ -200,7 +200,7 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
         
         if height > 0.14:
             self.threshold = True
-        success = (height < 0.093 and height > 0.083) and self.threshold and ((self.last_height - height) < 0.0001)
+        success = (height < 0.093 and height > 0.083) and self.threshold and (abs(self.last_height - height) < 0.00003)
         print("HEIGHT", obs[6], "LST_HEIGHT", self.last_height, "\tTHRESHOLD", self.threshold, )
         # print(success)
         if success:

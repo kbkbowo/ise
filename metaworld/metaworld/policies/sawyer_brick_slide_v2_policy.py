@@ -56,7 +56,7 @@ class SawyerBrickSlideV2Policy(Policy):
         # return np.array([0.0, 0.5, 0.1])
         # print("HEIGHT", pos_lid[2], self.checkpoint)
         checkpoint = (pos_lid[2] - 0.07) > 0.22
-        checkpoint = (pos_lid[2] - 0.07) > 0.14
+        # checkpoint = (pos_lid[2] - 0.07) > 0.14
         # print("CHECKPOINT", self.checkpoint, checkpoint, pos_lid[2])
         self.last_pos = pos_lid[2]
         
