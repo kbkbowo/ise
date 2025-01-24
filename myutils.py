@@ -133,6 +133,7 @@ def sample_with_binear(fmap, kp):
     x0, y0 = int(kp[0]), int(kp[1])
     x1, y1 = x0+1, y0+1
     x, y = kp[0]-x0, kp[1]-y0
+    # print(x0, y0, x1, y1)
     fmap_x0y0 = fmap[y0, x0]
     fmap_x1y0 = fmap[y0, x1]
     fmap_x0y1 = fmap[y1, x0]
@@ -221,6 +222,7 @@ def get_tetrahedron(center, r=0.3):
 
 def to_3d(points, depth, cmat):
     points = points.reshape(-1, 2)
+    # print(len(points), depth.shape, cmat.shape)
     depths = np.array([[sample_with_binear(depth, kp)] for kp in points])
     # depths = np.array([[depth[int(p[1]), int(p[0])]] for p in points])
     points = np.concatenate([points, np.ones((points.shape[0], 1))], axis=1) * depths

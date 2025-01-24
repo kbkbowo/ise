@@ -172,6 +172,8 @@ def get_subgoals(seg, depth, cmat, video, flow_model, task_name=None):
         next_subgoal = (transforms @ grasp_ext)[:3]
         subgoals.append(next_subgoal)
 
+    # print(subgoals)
+    # assert False
     return subgoals
 
 def pred_identity(task_name, subgoals):

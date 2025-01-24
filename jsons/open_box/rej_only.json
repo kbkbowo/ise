@@ -39,8 +39,11 @@
         "seed": 1003,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -50,14 +53,8 @@
         "seed": 1004,
         "identity": "lift",
         "success": true,
-        "trials": 12,
+        "trials": 6,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -73,8 +70,9 @@
         "seed": 1005,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -153,27 +151,16 @@
         "task": "open_box",
         "seed": 1012,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 4,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 103
     },
     {
         "task": "open_box",
@@ -202,8 +189,10 @@
         "seed": 1015,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -237,8 +226,9 @@
         "seed": 1018,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 219
@@ -259,8 +249,9 @@
         "seed": 1020,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -283,8 +274,9 @@
         "seed": 1022,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -295,8 +287,9 @@
         "seed": 1023,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -340,8 +333,9 @@
         "seed": 1027,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -363,8 +357,8 @@
         "task": "open_box",
         "seed": 1029,
         "identity": "lift",
-        "success": true,
-        "trials": 8,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -374,18 +368,24 @@
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 101
+        "int_length": 502
     },
     {
         "task": "open_box",
         "seed": 1030,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -417,17 +417,8 @@
         "seed": 1033,
         "identity": "lift",
         "success": true,
-        "trials": 10,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -448,13 +439,27 @@
         "task": "open_box",
         "seed": 1035,
         "identity": "lift",
-        "success": true,
-        "trials": 1,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 103
+        "int_length": 502
     },
     {
         "task": "open_box",
@@ -505,8 +510,9 @@
         "seed": 1040,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -530,8 +536,9 @@
         "seed": 1042,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -554,12 +561,8 @@
         "seed": 1044,
         "identity": "lift",
         "success": true,
-        "trials": 5,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -581,21 +584,39 @@
         "task": "open_box",
         "seed": 1046,
         "identity": "lift",
-        "success": true,
-        "trials": 1,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 100
+        "int_length": 502
     },
     {
         "task": "open_box",
         "seed": 1047,
         "identity": "lift",
         "success": true,
-        "trials": 5,
+        "trials": 9,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -610,8 +631,9 @@
         "seed": 1048,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -622,8 +644,9 @@
         "seed": 1049,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -634,9 +657,8 @@
         "seed": 1050,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 100
@@ -646,8 +668,9 @@
         "seed": 1051,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -669,8 +692,9 @@
         "seed": 1053,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -738,10 +762,8 @@
         "seed": 1059,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -807,8 +829,10 @@
         "seed": 1065,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -821,8 +845,12 @@
         "seed": 1066,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 6,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -845,8 +873,10 @@
         "seed": 1068,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -859,8 +889,10 @@
         "seed": 1069,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -893,8 +925,8 @@
         "task": "open_box",
         "seed": 1072,
         "identity": "lift",
-        "success": true,
-        "trials": 11,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -907,9 +939,13 @@
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 102
+        "int_length": 502
     },
     {
         "task": "open_box",
@@ -927,8 +963,9 @@
         "seed": 1074,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -950,8 +987,9 @@
         "seed": 1076,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -974,8 +1012,9 @@
         "seed": 1078,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -986,8 +1025,20 @@
         "seed": 1079,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 13,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1033,8 +1084,9 @@
         "seed": 1083,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1056,8 +1108,9 @@
         "seed": 1085,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -1079,8 +1132,9 @@
         "seed": 1087,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1124,8 +1178,9 @@
         "seed": 1091,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1135,36 +1190,22 @@
         "task": "open_box",
         "seed": 1092,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 2,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 101
     },
     {
         "task": "open_box",
         "seed": 1093,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -1175,8 +1216,9 @@
         "seed": 1094,
         "identity": "lift",
         "success": true,
-        "trials": 7,
+        "trials": 8,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -1193,9 +1235,8 @@
         "seed": 1095,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -1217,8 +1258,9 @@
         "seed": 1097,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 219
@@ -1228,9 +1270,8 @@
         "seed": 1098,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 97
@@ -1251,9 +1292,8 @@
         "seed": 1100,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -1297,9 +1337,8 @@
         "seed": 1104,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1379,20 +1418,8 @@
         "seed": 1111,
         "identity": "lift",
         "success": true,
-        "trials": 12,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 103
@@ -1459,9 +1486,8 @@
         "seed": 1117,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1495,8 +1521,9 @@
         "seed": 1120,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1507,8 +1534,9 @@
         "seed": 1121,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 99
@@ -1518,8 +1546,9 @@
         "seed": 1122,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1530,8 +1559,10 @@
         "seed": 1123,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -1541,8 +1572,9 @@
         "seed": 1124,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 101
@@ -1552,12 +1584,8 @@
         "seed": 1125,
         "identity": "lift",
         "success": true,
-        "trials": 4,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 103
@@ -1567,10 +1595,8 @@
         "seed": 1126,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 101
@@ -1591,8 +1617,15 @@
         "seed": 1128,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 10,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -1605,8 +1638,9 @@
         "seed": 1129,
         "identity": "lift",
         "success": true,
-        "trials": 4,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -1644,8 +1678,11 @@
         "seed": 1132,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1667,14 +1704,8 @@
         "seed": 1134,
         "identity": "lift",
         "success": true,
-        "trials": 6,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 101
@@ -1740,8 +1771,11 @@
         "seed": 1140,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 100
@@ -1751,9 +1785,8 @@
         "seed": 1141,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 2,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -1799,8 +1832,9 @@
         "seed": 1145,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -1834,8 +1868,9 @@
         "seed": 1148,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -1845,10 +1880,8 @@
         "seed": 1149,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -1894,9 +1927,8 @@
         "seed": 1153,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -1907,8 +1939,9 @@
         "seed": 1154,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -1941,8 +1974,16 @@
         "seed": 1157,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 8,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 101
@@ -2023,8 +2064,9 @@
         "seed": 1164,
         "identity": "lift",
         "success": true,
-        "trials": 6,
+        "trials": 7,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -2040,8 +2082,10 @@
         "seed": 1165,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2074,8 +2118,9 @@
         "seed": 1168,
         "identity": "slide",
         "success": true,
-        "trials": 3,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
@@ -2088,10 +2133,8 @@
         "seed": 1169,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 213
@@ -2112,8 +2155,9 @@
         "seed": 1171,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 99
@@ -2149,8 +2193,9 @@
         "seed": 1174,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -2171,8 +2216,9 @@
         "seed": 1176,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2195,8 +2241,10 @@
         "seed": 1178,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -2208,11 +2256,8 @@
         "seed": 1179,
         "identity": "slide",
         "success": true,
-        "trials": 4,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2234,10 +2279,8 @@
         "seed": 1181,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -2247,8 +2290,10 @@
         "seed": 1182,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -2293,8 +2338,9 @@
         "seed": 1186,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -2304,13 +2350,8 @@
         "seed": 1187,
         "identity": "slide",
         "success": true,
-        "trials": 5,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -2320,9 +2361,8 @@
         "seed": 1188,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2333,8 +2373,9 @@
         "seed": 1189,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -2412,8 +2453,13 @@
         "seed": 1196,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 6,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2447,10 +2493,8 @@
         "seed": 1199,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2461,8 +2505,9 @@
         "seed": 1200,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2473,8 +2518,9 @@
         "seed": 1201,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -2511,9 +2557,8 @@
         "seed": 1203,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2547,8 +2592,11 @@
         "seed": 1206,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 103
@@ -2558,9 +2606,8 @@
         "seed": 1207,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -2605,8 +2652,9 @@
         "seed": 1211,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2629,8 +2677,9 @@
         "seed": 1213,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -2640,8 +2689,11 @@
         "seed": 1214,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -2653,8 +2705,11 @@
         "seed": 1215,
         "identity": "lift",
         "success": true,
-        "trials": 4,
+        "trials": 7,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -2679,12 +2734,8 @@
         "seed": 1217,
         "identity": "slide",
         "success": true,
-        "trials": 4,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 215
@@ -2781,21 +2832,43 @@
         "task": "open_box",
         "seed": 1226,
         "identity": "slide",
-        "success": true,
-        "trials": 1,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 215
+        "int_length": 502
     },
     {
         "task": "open_box",
         "seed": 1227,
         "identity": "lift",
         "success": true,
-        "trials": 5,
+        "trials": 13,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -2846,8 +2919,9 @@
         "seed": 1231,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2858,14 +2932,8 @@
         "seed": 1232,
         "identity": "lift",
         "success": true,
-        "trials": 7,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -2898,8 +2966,9 @@
         "seed": 1235,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 221
@@ -2932,8 +3001,10 @@
         "seed": 1238,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3004,8 +3075,15 @@
         "seed": 1244,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 7,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 101
@@ -3015,9 +3093,8 @@
         "seed": 1245,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3028,8 +3105,10 @@
         "seed": 1246,
         "identity": "lift",
         "success": true,
-        "trials": 3,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3053,10 +3132,8 @@
         "seed": 1248,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 99
@@ -3066,14 +3143,8 @@
         "seed": 1249,
         "identity": "slide",
         "success": true,
-        "trials": 7,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3084,8 +3155,9 @@
         "seed": 1250,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 216
@@ -3094,27 +3166,15 @@
         "task": "open_box",
         "seed": 1251,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 3,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 98
     },
     {
         "task": "open_box",
@@ -3131,53 +3191,6 @@
         "task": "open_box",
         "seed": 1253,
         "identity": "lift",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 101
-    },
-    {
-        "task": "open_box",
-        "seed": 1254,
-        "identity": "lift",
-        "success": true,
-        "trials": 1,
-        "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 100
-    },
-    {
-        "task": "open_box",
-        "seed": 1255,
-        "identity": "lift",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 98
-    },
-    {
-        "task": "open_box",
-        "seed": 1256,
-        "identity": "slide",
-        "success": true,
-        "trials": 2,
-        "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 216
-    },
-    {
-        "task": "open_box",
-        "seed": 1257,
-        "identity": "lift",
         "success": false,
         "trials": 15,
         "pred_identity": [
@@ -3202,15 +3215,74 @@
     },
     {
         "task": "open_box",
+        "seed": 1254,
+        "identity": "lift",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1255,
+        "identity": "lift",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1256,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1257,
+        "identity": "lift",
+        "success": true,
+        "trials": 15,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
         "seed": 1258,
         "identity": "slide",
         "success": true,
-        "trials": 7,
+        "trials": 3,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
@@ -3223,9 +3295,8 @@
         "seed": 1259,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 100
@@ -3246,8 +3317,9 @@
         "seed": 1261,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -3269,8 +3341,9 @@
         "seed": 1263,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -3328,8 +3401,15 @@
         "seed": 1268,
         "identity": "lift",
         "success": true,
-        "trials": 6,
+        "trials": 13,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3356,8 +3436,12 @@
         "seed": 1270,
         "identity": "lift",
         "success": true,
-        "trials": 4,
+        "trials": 8,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3370,27 +3454,13 @@
         "task": "open_box",
         "seed": 1271,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 1,
         "pred_identity": [
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 101
     },
     {
         "task": "open_box",
@@ -3408,9 +3478,8 @@
         "seed": 1273,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -3420,8 +3489,9 @@
         "seed": 1274,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3443,8 +3513,17 @@
         "seed": 1276,
         "identity": "slide",
         "success": true,
-        "trials": 5,
+        "trials": 14,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
@@ -3470,8 +3549,9 @@
         "seed": 1278,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3482,9 +3562,8 @@
         "seed": 1279,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 218
@@ -3505,8 +3584,9 @@
         "seed": 1281,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -3516,9 +3596,8 @@
         "seed": 1282,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3541,10 +3620,8 @@
         "seed": 1284,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -3554,9 +3631,8 @@
         "seed": 1285,
         "identity": "lift",
         "success": true,
-        "trials": 5,
+        "trials": 4,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3583,9 +3659,8 @@
         "seed": 1287,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -3631,13 +3706,8 @@
         "seed": 1291,
         "identity": "lift",
         "success": true,
-        "trials": 6,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -3703,8 +3773,8 @@
         "task": "open_box",
         "seed": 1297,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 14,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3720,10 +3790,9 @@
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 101
     },
     {
         "task": "open_box",
@@ -3763,8 +3832,10 @@
         "seed": 1301,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3775,8 +3846,11 @@
         "seed": 1302,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -3798,8 +3872,10 @@
         "seed": 1304,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -3820,8 +3896,11 @@
         "seed": 1306,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -3857,8 +3936,11 @@
         "seed": 1309,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 5,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -3882,8 +3964,11 @@
         "seed": 1311,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -3893,8 +3978,11 @@
         "seed": 1312,
         "identity": "lift",
         "success": true,
-        "trials": 4,
+        "trials": 7,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3919,8 +4007,13 @@
         "seed": 1314,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 7,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -3943,8 +4036,13 @@
         "seed": 1316,
         "identity": "lift",
         "success": true,
-        "trials": 7,
+        "trials": 12,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3961,8 +4059,11 @@
         "seed": 1317,
         "identity": "lift",
         "success": true,
-        "trials": 5,
+        "trials": 8,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -3988,8 +4089,14 @@
         "seed": 1319,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 7,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4000,10 +4107,8 @@
         "seed": 1320,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -4057,8 +4162,10 @@
         "seed": 1325,
         "identity": "slide",
         "success": true,
-        "trials": 4,
+        "trials": 6,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
@@ -4072,8 +4179,9 @@
         "seed": 1326,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4118,10 +4226,8 @@
         "seed": 1330,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -4153,10 +4259,8 @@
         "seed": 1333,
         "identity": "slide",
         "success": true,
-        "trials": 3,
+        "trials": 1,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -4167,8 +4271,14 @@
         "seed": 1334,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 7,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -4213,8 +4323,9 @@
         "seed": 1338,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 102
@@ -4224,8 +4335,11 @@
         "seed": 1339,
         "identity": "slide",
         "success": true,
-        "trials": 0,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 213
@@ -4257,8 +4371,10 @@
         "seed": 1342,
         "identity": "lift",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
@@ -4270,8 +4386,9 @@
         "seed": 1343,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -4293,8 +4410,16 @@
         "seed": 1345,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 8,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 100
@@ -4304,9 +4429,8 @@
         "seed": 1346,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 216
@@ -4315,27 +4439,14 @@
         "task": "open_box",
         "seed": 1347,
         "identity": "lift",
-        "success": false,
-        "trials": 15,
+        "success": true,
+        "trials": 2,
         "pred_identity": [
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable"
+            "box-open-v2-goal-observable"
         ],
-        "int_length": 502
+        "int_length": 101
     },
     {
         "task": "open_box",
@@ -4366,8 +4477,10 @@
         "seed": 1350,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
@@ -4395,8 +4508,9 @@
         "seed": 1352,
         "identity": "lift",
         "success": true,
-        "trials": 0,
+        "trials": 1,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
         "int_length": 100
@@ -4417,12 +4531,8 @@
         "seed": 1354,
         "identity": "lift",
         "success": true,
-        "trials": 7,
+        "trials": 3,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -4468,16 +4578,8 @@
         "seed": 1358,
         "identity": "lift",
         "success": true,
-        "trials": 9,
+        "trials": 1,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4488,8 +4590,9 @@
         "seed": 1359,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4499,7 +4602,7 @@
         "task": "open_box",
         "seed": 1360,
         "identity": "lift",
-        "success": true,
+        "success": false,
         "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
@@ -4517,17 +4620,20 @@
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 101
+        "int_length": 502
     },
     {
         "task": "open_box",
         "seed": 1361,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 4,
         "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -4573,8 +4679,13 @@
         "seed": 1365,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 6,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4585,9 +4696,8 @@
         "seed": 1366,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 214
@@ -4597,8 +4707,19 @@
         "seed": 1367,
         "identity": "lift",
         "success": true,
-        "trials": 1,
+        "trials": 12,
         "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-open-v2-goal-observable"
         ],
@@ -4609,9 +4730,8 @@
         "seed": 1368,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 0,
         "pred_identity": [
-            "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
         "int_length": 212
@@ -4643,8 +4763,9 @@
         "seed": 1371,
         "identity": "slide",
         "success": true,
-        "trials": 1,
+        "trials": 2,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
         ],
@@ -4653,6 +4774,133 @@
     {
         "task": "open_box",
         "seed": 1372,
+        "identity": "lift",
+        "success": true,
+        "trials": 4,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1373,
+        "identity": "slide",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1374,
+        "identity": "slide",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1375,
+        "identity": "slide",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1376,
+        "identity": "lift",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1377,
+        "identity": "lift",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1378,
+        "identity": "slide",
+        "success": true,
+        "trials": 2,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1379,
+        "identity": "slide",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1380,
+        "identity": "lift",
+        "success": true,
+        "trials": 3,
+        "pred_identity": [
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1381,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1382,
         "identity": "lift",
         "success": false,
         "trials": 15,
@@ -4675,128 +4923,6 @@
             "box-slide-v2-goal-observable"
         ],
         "int_length": 502
-    },
-    {
-        "task": "open_box",
-        "seed": 1373,
-        "identity": "slide",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 219
-    },
-    {
-        "task": "open_box",
-        "seed": 1374,
-        "identity": "slide",
-        "success": true,
-        "trials": 1,
-        "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 219
-    },
-    {
-        "task": "open_box",
-        "seed": 1375,
-        "identity": "slide",
-        "success": true,
-        "trials": 4,
-        "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 214
-    },
-    {
-        "task": "open_box",
-        "seed": 1376,
-        "identity": "lift",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 99
-    },
-    {
-        "task": "open_box",
-        "seed": 1377,
-        "identity": "lift",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 102
-    },
-    {
-        "task": "open_box",
-        "seed": 1378,
-        "identity": "slide",
-        "success": true,
-        "trials": 1,
-        "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 215
-    },
-    {
-        "task": "open_box",
-        "seed": 1379,
-        "identity": "slide",
-        "success": true,
-        "trials": 2,
-        "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-slide-v2-goal-observable"
-        ],
-        "int_length": 215
-    },
-    {
-        "task": "open_box",
-        "seed": 1380,
-        "identity": "lift",
-        "success": true,
-        "trials": 2,
-        "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 99
-    },
-    {
-        "task": "open_box",
-        "seed": 1381,
-        "identity": "lift",
-        "success": true,
-        "trials": 0,
-        "pred_identity": [
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 103
-    },
-    {
-        "task": "open_box",
-        "seed": 1382,
-        "identity": "lift",
-        "success": true,
-        "trials": 2,
-        "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
-        ],
-        "int_length": 101
     },
     {
         "task": "open_box",
@@ -4836,15 +4962,8 @@
         "seed": 1386,
         "identity": "slide",
         "success": true,
-        "trials": 11,
+        "trials": 4,
         "pred_identity": [
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
-            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
@@ -4868,13 +4987,27 @@
         "task": "open_box",
         "seed": 1388,
         "identity": "lift",
-        "success": true,
-        "trials": 1,
+        "success": false,
+        "trials": 15,
         "pred_identity": [
             "box-slide-v2-goal-observable",
-            "box-open-v2-goal-observable"
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable",
+            "box-slide-v2-goal-observable"
         ],
-        "int_length": 96
+        "int_length": 502
     },
     {
         "task": "open_box",
@@ -4937,11 +5070,8 @@
         "seed": 1394,
         "identity": "lift",
         "success": true,
-        "trials": 6,
+        "trials": 3,
         "pred_identity": [
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
-            "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
             "box-slide-v2-goal-observable",
@@ -4967,8 +5097,9 @@
         "seed": 1396,
         "identity": "slide",
         "success": true,
-        "trials": 2,
+        "trials": 3,
         "pred_identity": [
+            "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-open-v2-goal-observable",
             "box-slide-v2-goal-observable"
