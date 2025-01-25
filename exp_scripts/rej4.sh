@@ -1,0 +1,19 @@
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_push.json" --out_dir "ablation_rejection_num/rej4_push" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "push_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_push.json" --out_dir "ablation_rejection_num/rej4_push" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "push_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_push.json" --out_dir "ablation_rejection_num/rej4_push" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "push_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_push.json" --out_dir "ablation_rejection_num/rej4_push" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "push_bar" --retrieve_on --refine_step 0
+
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_pick.json" --out_dir "ablation_rejection_num/rej4_pick" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "pick_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_pick.json" --out_dir "ablation_rejection_num/rej4_pick" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "pick_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_pick.json" --out_dir "ablation_rejection_num/rej4_pick" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "pick_bar" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_pick.json" --out_dir "ablation_rejection_num/rej4_pick" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "pick_bar" --retrieve_on --refine_step 0
+
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_open.json" --out_dir "ablation_rejection_num/rej4_open" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "open_box" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_open.json" --out_dir "ablation_rejection_num/rej4_open" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "open_box" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_open.json" --out_dir "ablation_rejection_num/rej4_open" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "open_box" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_open.json" --out_dir "ablation_rejection_num/rej4_open" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "open_box" --retrieve_on --refine_step 0
+
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_turn.json" --out_dir "ablation_rejection_num/rej4_turn" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "turn_faucet" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_turn.json" --out_dir "ablation_rejection_num/rej4_turn" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "turn_faucet" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_turn.json" --out_dir "ablation_rejection_num/rej4_turn" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "turn_faucet" --retrieve_on --refine_step 0
+python main_exp.py -s 400 --n 4 --out_file "ablation_rejection_num/rej4_turn.json" --out_dir "ablation_rejection_num/rej4_turn" --temperature 0.3 --agg_metric "min" --enc_method "dinov2" --task_name "turn_faucet" --retrieve_on --refine_step 0
