@@ -61,7 +61,7 @@ def get_policy(env_name, relative_offset=None):
         policy = getattr(policies, policy_name)(offset=-relative_offset)
     elif env_name == 'brick-slide-v2-goal-observable':
         p_friction, highest = None, relative_offset
-        getattr(policies, policy_name)(p_friction=p_friction, highest=highest)
+        policy = getattr(policies, policy_name)(p_friction=p_friction, highest=highest)
     else:
         policy = getattr(policies, policy_name)(relative_offset=relative_offset)
     return policy
@@ -169,6 +169,7 @@ def get_subgoals(seg, depth, cmat, video, flow_model, task_name=None):
         raise NotImplementedError
     images1, images2, flows, flows_b = pred_flow_frame(flow_model, video, stride=1, device='cuda:0')
 
+
     grasp, transforms, center_2ds, sampless = get_transforms(seg, depth, cmat, flows)
     transform_mats = [get_transformation_matrix(*transform) for transform in transforms]
 
@@ -215,7 +216,7 @@ def make_policy(task_name, task, pred_identity):
         policy = get_policy(pred_identity)
         # return get_policy(pred_identity)
     elif task_name in ['slide_brick']:
-        policy = get_policy(None, pred_identity)
+        policy = get_policy(task, pred_identity)
     else:
         raise NotImplementedError
     return policy
@@ -318,7 +319,7 @@ def get_env(task, seed, identity):
         env = env_dict[task](seed=seed)
     elif task in ['push-alphabet-v2-goal-observable']:
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
-        env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+        env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/pochenko/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
     elif task in ['brick-slide-v2-goal-observable']:
         env = env_dict[task](seed=seed, friction=identity)
     else:
@@ -422,22 +423,33 @@ class ExplicitRetrievalModule():
         self.guidance = guidance
         self.random_generation = random_generation
         # import clip
-        self.first_frame_transform = T.Compose([
+        first_frame_transform = T.Compose([
             T.CenterCrop(128),
             T.Resize((32, 32)),
             T.ToTensor()
         ])
-        # self.clip_pre_transform = T.Compose([
-        #     T.CenterCrop(128),
-        #     T.Resize((224, 224))
-        # ])
+        first_frame_transform_large = T.Compose([
+            T.CenterCrop(256),
+            T.Resize((32, 32)),
+            T.ToTensor()
+        ])
+        if task_name in ['slide_brick']:
+            self.fft = first_frame_transform_large
+        else:
+            self.fft = first_frame_transform
+
+        self.clip_pre_transform = T.Compose([
+            T.CenterCrop(384),
+            T.Resize((224, 224)),
+            T.ToTensor()
+        ])
         # self.model, self.preprocess = clip.load("ViT-B/32", device='cuda')
         self.feat_encoder = FeatEncoder(enc_method)
         self.feat_dim = method2dim[enc_method]
 
         if on:
             # preproces features
-            with open(f"./down_dataset/{task_name}/{enc_method}/all_feats.npy", "rb") as f:
+            with open(f"/tmp2/pochenko/temp/mw_temp/faucet_dataset/down_dataset/{task_name}/{enc_method}/all_feats.npy", "rb") as f:
                 all_dict = np.load(f, allow_pickle=True).item()
 
             filtered_dict = []
@@ -517,9 +529,9 @@ class ExplicitRetrievalModule():
         self.diffusion.requires_grad_(True)
         feat = nn.Parameter(feat.unsqueeze(0).unsqueeze(0)).cuda()
         opt = torch.optim.Adam([feat], lr=1e-3)
-        first_frame = torch.stack([self.first_frame_transform(Image.fromarray(interaction_video[0]))])
+        first_frame = torch.stack([self.fft(Image.fromarray(interaction_video[0]))])
         first_frame = rearrange(first_frame, 'f c h w -> 1 (f c) h w')
-        future_frames = torch.stack([self.first_frame_transform(Image.fromarray(frame)) for frame in interaction_video[1:]])
+        future_frames = torch.stack([self.fft(Image.fromarray(frame)) for frame in interaction_video[1:]])
         future_frames = rearrange(future_frames, 'f c h w -> 1 (f c) h w')
         for i in tqdm(range(refine_steps)):
             loss = self.diffusion(
@@ -593,7 +605,7 @@ class ExplicitRetrievalModule():
         env = get_env(task, seed, identity)
         obs, image, depth, seg, cmat = init_env(env, resolution, camera, task)
 
-        first_frame = self.first_frame_transform(Image.fromarray(image))
+        first_frame = self.fft(Image.fromarray(image))
 
         for feat in feats:
             # if feat is not None:
@@ -617,9 +629,9 @@ class ExplicitRetrievalModule():
             if task == 'brick-slide-v2-goal-observable':
                 # make image 3x bigger
                 generation = rearrange(generation, 'c f h w -> f h w c')
-                generation = [Image.fromarray((generation[i] * 255).astype(np.uint8)) for i in range(generation.shape[0])]
+                generation = [Image.fromarray((generation[i]*255).astype(np.uint8)) for i in range(generation.shape[0])]
                 g_res = (generation[0].size[0], generation[0].size[1])  
-                generation = [np.array(g.resize((g_res[0] * 3, g_res[1] * 3))) for g in generation]
+                generation = [np.array(g.resize((g_res[0] * 2, g_res[1] * 2))) / 255 for g in generation]
                 generation = np.stack(generation)
                 generation = rearrange(generation, 'f h w c -> c f h w')
 
@@ -688,7 +700,7 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
     elif task_name == 'push_alphabet':
         task = 'push-alphabet-v2-goal-observable'
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
-        env = env_dict[task](seed=seed, axis_seed=seed, alphabet=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+        env = env_dict[task](seed=seed, axis_seed=seed, alphabet=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/pochenko/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
         identity = (alphabet, env.x_offset())
     elif task_name == 'slide_brick': 
         task = 'brick-slide-v2-goal-observable'
@@ -763,6 +775,7 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
         env = get_env(task, seed, identity)
         obs, image, depth, seg, cmat = init_env(env, resolution, camera, task)
         interaction = interact(env, obs, policy, resolution, camera)
+        imageio.imsave(f"{trail_dir}/seg.png", seg)
 
         frameskip = 16
         imageio.mimsave(f"{trail_dir}/interaction.mp4", interaction[::frameskip], fps=16)
