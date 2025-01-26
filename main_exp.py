@@ -161,10 +161,8 @@ def get_subgoals(seg, depth, cmat, video, flow_model, task_name=None):
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2) # N, C, H, W
     elif task_name in ['push_bar', 'push_alphabet']:
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:2]
-    elif task_name in ['pick_bar']:
+    elif task_name in ['pick_bar', 'slide_brick']:
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:6]
-    elif task_name in ['slide_brick']:
-        video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:4]
     else:
         raise NotImplementedError
     images1, images2, flows, flows_b = pred_flow_frame(flow_model, video, stride=1, device='cuda:0')
