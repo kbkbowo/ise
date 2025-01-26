@@ -167,8 +167,8 @@ def get_subgoals(seg, depth, cmat, video, flow_model, task_name=None):
         raise NotImplementedError
     images1, images2, flows, flows_b = pred_flow_frame(flow_model, video, stride=1, device='cuda:0')
 
-
-    grasp, transforms, center_2ds, sampless = get_transforms(seg, depth, cmat, flows)
+    ransac_tolerance = 2 if task_name in ['slide_brick'] else 0.5
+    grasp, transforms, center_2ds, sampless = get_transforms(seg, depth, cmat, flows, ransac_threshold=ransac_tolerance)
     transform_mats = [get_transformation_matrix(*transform) for transform in transforms]
 
     subgoals = [grasp[0]]
