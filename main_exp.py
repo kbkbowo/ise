@@ -59,6 +59,9 @@ def get_policy(env_name, relative_offset=None):
         policy = getattr(policies, policy_name)()
     elif env_name == 'push-alphabet-v2-goal-observable':
         policy = getattr(policies, policy_name)(offset=-relative_offset)
+    elif env_name == 'brick-slide-v2-goal-observable':
+        p_friction, highest = None, relative_offset
+        getattr(policies, policy_name)(p_friction=p_friction, highest=highest)
     else:
         policy = getattr(policies, policy_name)(relative_offset=relative_offset)
     return policy
@@ -153,12 +156,15 @@ def pred_flow_frame(model, frames, stride=1, device='cuda:0'):
     return images1, images2, flows, flows_b
 
 def get_subgoals(seg, depth, cmat, video, flow_model, task_name=None):
+    print(task_name)
     if task_name in ['open_box', 'turn_faucet']:
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2) # N, C, H, W
     elif task_name in ['push_bar', 'push_alphabet']:
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:2]
     elif task_name in ['pick_bar']:
         video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:6]
+    elif task_name in ['slide_brick']:
+        video = sample_n_frames(video, 8).transpose(0, 3, 1, 2)[:4]
     else:
         raise NotImplementedError
     images1, images2, flows, flows_b = pred_flow_frame(flow_model, video, stride=1, device='cuda:0')
@@ -195,6 +201,9 @@ def pred_identity(task_name, subgoals):
             p_identity = "faucet-open-v2-goal-observable"
         else:
             p_identity = "faucet-close-v2-goal-observable"
+    elif task_name in ['slide_brick']:
+        peak_z = max(subgoals, key=lambda x: x[2])[2]
+        p_identity = peak_z
     return p_identity
 
 
@@ -205,6 +214,8 @@ def make_policy(task_name, task, pred_identity):
     elif task_name in ['open_box', 'turn_faucet']:
         policy = get_policy(pred_identity)
         # return get_policy(pred_identity)
+    elif task_name in ['slide_brick']:
+        policy = get_policy(None, pred_identity)
     else:
         raise NotImplementedError
     return policy
@@ -308,6 +319,8 @@ def get_env(task, seed, identity):
     elif task in ['push-alphabet-v2-goal-observable']:
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
         env = env_dict[task](seed=seed, init_seed=seed, cm_sample_seed=seed, letter=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
+    elif task in ['brick-slide-v2-goal-observable']:
+        env = env_dict[task](seed=seed, friction=identity)
     else:
         raise NotImplementedError
     return env
@@ -601,6 +614,15 @@ class ExplicitRetrievalModule():
 
             generation = upsample(pred_video.unsqueeze(0)).squeeze(0).numpy()
 
+            if task == 'brick-slide-v2-goal-observable':
+                # make image 3x bigger
+                generation = rearrange(generation, 'c f h w -> f h w c')
+                generation = [Image.fromarray((generation[i] * 255).astype(np.uint8)) for i in range(generation.shape[0])]
+                g_res = (generation[0].size[0], generation[0].size[1])  
+                generation = [np.array(g.resize((g_res[0] * 3, g_res[1] * 3))) for g in generation]
+                generation = np.stack(generation)
+                generation = rearrange(generation, 'f h w c -> c f h w')
+
             # pad the generated video to the original resolution
             pad_h = (resolution[1] - generation.shape[2]) // 2
             pad_w = (resolution[0] - generation.shape[3]) // 2
@@ -668,6 +690,9 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
         alphabet = ALP_LIST[seed % len(ALP_LIST)]
         env = env_dict[task](seed=seed, axis_seed=seed, alphabet=alphabet, cm_visible=False, font_size=10, font_path="/tmp2/seanfu/temp/mw_temp/alphabet_dataset_gen/basic.ttf")
         identity = (alphabet, env.x_offset())
+    elif task_name == 'slide_brick': 
+        task = 'brick-slide-v2-goal-observable'
+        identity = np.random.uniform(0.27, 0.40)
     else:
         raise NotImplementedError
 
@@ -728,6 +753,9 @@ def main(seed, n, retrieve_on, retrieval_module, out_file, out_dir, agg_metric, 
         if task_name in ['push_bar', 'pick_bar', 'push_alphabet']:
             relative_offset = p_identity + obs[4]
             p_identity = relative_offset
+        elif task_name in ['slide_brick']:
+            z_0 = obs[6]
+            p_identity = p_identity - z_0 + 0.05
         p_identities.append(p_identity)
         policy = make_policy(task_name, task, p_identity)
 
