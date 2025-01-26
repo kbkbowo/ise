@@ -5,9 +5,40 @@ from metaworld.policies.policy import Policy, assert_fully_parsed, move
 
 
 class SawyerBrickSlideV2Policy(Policy):
-    def __init__(self):
+    def __init__(self, p_friction=0, highest=None):
         self.checkpoint=False
-
+        
+        
+        if highest is None:
+            if p_friction >= 0.395:
+                self.highest = 0.210
+            elif p_friction < 0.395 and p_friction >= 0.385:
+                self.highest = 0.200
+            elif p_friction < 0.385 and p_friction >= 0.37:
+                self.highest = 0.195
+            elif p_friction < 0.37 and p_friction >= 0.355:
+                self.highest = 0.190
+            elif p_friction < 0.355 and p_friction >= 0.345:
+                self.highest = 0.186
+            elif p_friction < 0.345 and p_friction >= 0.33:
+                self.highest = 0.176
+            elif p_friction < 0.33 and p_friction >= 0.31:
+                self.highest = 0.173
+            elif p_friction < 0.31 and p_friction >= 0.29:
+                self.highest = 0.167
+            elif p_friction < 0.29 and p_friction >= 0.275:
+                self.highest = 0.164
+            elif p_friction < 0.275 and p_friction >= 0.265:
+                self.highest = 0.159
+            elif p_friction < 0.265 and p_friction >= 0.255:
+                self.highest = 0.150
+            elif p_friction < 0.255 and p_friction >= 0.245:
+                self.highest = 0.146
+            elif p_friction < 0.245:
+                self.highest = 0.140
+                
+        else:
+            self.highest = highest
     @staticmethod
     @assert_fully_parsed
     def _parse_obs(obs):
@@ -55,7 +86,7 @@ class SawyerBrickSlideV2Policy(Policy):
 
         # return np.array([0.0, 0.5, 0.1])
         # print("HEIGHT", pos_lid[2], self.checkpoint)
-        checkpoint = (pos_lid[2] - 0.07) > 0.22
+        checkpoint = (pos_lid[2] - 0.07) > self.highest
         # checkpoint = (pos_lid[2] - 0.07) > 0.14
         # print("CHECKPOINT", self.checkpoint, checkpoint, pos_lid[2])
         self.last_pos = pos_lid[2]
@@ -65,23 +96,10 @@ class SawyerBrickSlideV2Policy(Policy):
             return o_d['lid_pos'] + np.array([0.2, 0.0, -0.1])
         elif checkpoint or self.checkpoint:
             self.checkpoint = True
-            return o_d['lid_pos'] + np.array([-1.0, 0.0, 1.0])
+            return o_d['lid_pos'] + np.array([-0.1, 0.0, 0.1])
         else:
             # print("hahaha")
             return o_d['lid_pos'] + np.array([0.0, -0.1, 0.0])
-
-        # If error in the XY plane is greater than 0.02, place end effector above the puck
-        if not self.checkpoint and np.linalg.norm(pos_curr[:2] - push_pos[:2]) > 0.05:
-            return np.array([*push_pos[:2], 0.25])
-        # Once XY error is low enough, drop end effector down on top of puck
-        elif not self.checkpoint and abs(pos_curr[2] - pos_lid[2]) > 0.05:
-            return push_pos
-        # If not at the same Z height as the goal, move up to that plane
-        else: # pos_curr[2] - pos_box[2] < -0.04:
-            self.checkpoint=True
-            direction = pos_box - pos_curr
-            dir_norm = direction / np.linalg.norm(direction)
-            return pos_curr + dir_norm * 0.025
 
     @staticmethod
     def _grab_effort(o_d):

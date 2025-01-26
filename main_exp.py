@@ -277,7 +277,7 @@ def upsample(video_32):
     except: 
         print("upsample model not found, loading...")
         # load model and make it global
-        upsample_model_path = "./pretrained/model_15.pth"
+        upsample_model_path = "./pretrained/model_20.pth"
         upsample_model = UpsampleModel().cuda()
         try:
             upsample_model.load_state_dict(torch.load(upsample_model_path, weights_only=True))

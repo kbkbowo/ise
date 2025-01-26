@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from gym.spaces import Box
 
@@ -8,14 +9,19 @@ from metaworld.envs.mujoco.sawyer_xyz.sawyer_xyz_env import SawyerXYZEnv, _asser
 
 class SawyerBrickSlideEnvV2(SawyerXYZEnv):
 
-    def __init__(self):
+    def __init__(self, friction=0.4):
 
         hand_low = (-0.5, 0.40, 0.1)
         hand_high = (0.5, 1, 0.5)
         obj_low = (-0.10, 0.7, 0.02)
         obj_high = (0.10, 0.75, 0.02)
-        # goal_low = (-0.1, 0.7, 0.133)
-        # goal_high = (0.1, 0.8, 0.133)
+        goal_low = (-0.1, 0.7, 0.133)
+        goal_high = (0.1, 0.8, 0.133)
+
+        self.random_noise = np.random.uniform(-0.01, 0.01, size=(3,))
+        self.random_noise[2] = 0.0
+
+        # print("NOISE", self.random_noise)
 
         super().__init__(
             self.model_name,
@@ -27,21 +33,24 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
 
         self.threshold = False
         
-        self.random_init = False
-
+        self.random_init = True
+        self.goal = np.array([-0.2, 0.7, 0.06])
         self.init_config = {
             'obj_init_angle': .3,
             'obj_init_pos': np.array([0, 0.0, 0.0], dtype=np.float32),
             'hand_init_pos': np.array((-0.6, 0.7, 0.1), dtype=np.float32),
         }
         self.goal = np.array([0.0, 0.75, 0.133])
-        goal_low = self.goal.copy()
-        goal_high = self.goal.copy()
         self.obj_init_pos = self.init_config['obj_init_pos']
         self.obj_init_angle = self.init_config['obj_init_angle'] 
         self.hand_init_pos = self.init_config['hand_init_pos']
 
         self._target_to_obj_init = None
+
+        self.action_space = Box(
+            np.array([-1, -1, -1, -1]),
+            np.array([+1, +1, +1, +1]),
+        )
 
         self.goal_space = Box(np.array(goal_low), np.array(goal_high))
         # self._random_reset_space = Box(
@@ -49,21 +58,70 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
         #     np.hstack((obj_high, goal_high)),
         # )
         self._random_reset_space = Box(
-            np.hstack((obj_low)),
-            np.hstack((obj_high)),
+            np.hstack((obj_low, goal_low)),
+            np.hstack((obj_high, goal_high)),
         )
-        
-        for i, fric in enumerate(self.sim.model.geom_friction):
-            print("INDEX", i, "FRICTION", fric)
+        self.goal_space = Box(np.array(goal_low), np.array(goal_high))
+        # for i, fric in enumerate(self.sim.model.geom_friction):
+            # print("INDEX", i, "FRICTION", fric)
             
-        friction = 0.3
+        # friction = 0.01
+        self.sim.model.geom_friction[31] = np.array([0, 0, 0])
+        self.sim.model.geom_friction[33] = np.array([0, 0, 0])
         self.sim.model.geom_friction[36][0] = friction
         self.sim.model.geom_friction[37][0] = friction 
         self.sim.model.geom_friction[38][0] = friction
-
+        # print(friction)
     @property
     def model_name(self):
-        return full_v2_path_for('sawyer_xyz/sawyer_brick_slide.xml')
+        init_bar_pos = np.array([-0.2, 0.7, 0.06]) + self.random_noise
+        mstr = f"""
+        <mujoco>
+            <include file="./scene/basic_scene.xml"/>
+            <include file="../objects/assets/box_dependencies.xml"/>
+            <include file="../objects/assets/xyz_base_dependencies.xml"/>
+            <worldbody>
+                <include file="../objects/assets/xyz_base.xml"/>
+
+                <body name="boxbody" euler="0.0 0.0 0.0" pos="0.0 0.7 0.00">
+                <!-- MAX FRIC 0.4 -->
+                <!-- MIN FRIC 0.21 -->
+                    <geom material="box_red" pos="-0.325 0.0 0.01375" size="0.07625 0.2 0.001" type="box" mass=".99"  friction="0.22 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+                    <geom material="box_metal" pos="-0.22 0.0 0.033" size="0.0305 0.2 0.001" type="box" mass=".99"  friction="0.22 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+                    <geom material="box_red" pos="-0.04 0.0 0.066" size="0.1525 0.2 0.001" type="box" mass=".99"  friction="0.22 0.000 0.0000" euler="0.0 -0.1812119774 0.0"/>
+                    <geom material="box_wood" pos="0.710 0.0 0.2035" size="0.61 0.2 0.001" type="box" mass=".99"  friction="0.0 0.000 0.0000" euler="0.0 -0.181319774 0.0"/>
+                </body>
+
+                <body name="top_link" euler="0.0 0.0 0.0" pos="{ init_bar_pos[0] } { init_bar_pos[1] } { init_bar_pos[2] }">
+                    <joint name="objjoint" type="free" limited='false' damping="0." armature="0."/>
+                    <!-- <inertial pos="0 0 0" mass="100.75" diaginertia="8.80012e-04 8.80012e-04 8.80012e-04"/> -->
+                    <geom material="box_blue" pos="0.0 0.0 0.0" size="0.05 0.10 0.05" type="box" mass="100.20" friction="0.000 0.000 0.0000" euler="0.0 0.0 0.0"/>
+                    <geom rgba="0. 1. 0. 1." pos="0.0 -0.10 -0.047" size="0.02 0.02 0.001" type="box" mass="0.01" friction="0.000 0.000 0.0000" euler="0.0 0.0 0.0"/>
+                </body>
+
+                <!-- <site name="fix_point0" pos="0 0.4 0.05" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+                <site name="fix_point1" pos="0 0.4 0.09" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+                <site name="fix_point2" pos="0 0.4 0.13" size="0.02" rgba="0 1 1 0.3" type="sphere"/>
+                <site name="fix_point3" pos="0 0.4 0.17" size="0.02" rgba="0 1 1 0.3" type="sphere"/> -->
+
+                <!-- <site name="goal" pos="0. 0.7 0.05" size="0.02"
+                    rgba="0 0.8 0 1"/> -->
+            </worldbody>
+
+            <actuator>
+                <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+                <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/>
+            </actuator>
+            <equality>
+                <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+            </equality>
+        </mujoco>
+        """
+        exenv = os.path.join(os.path.dirname(__file__), 'push_test/sawyer_brick_slide_rdn.xml')
+        with open(exenv, 'w') as f:
+            f.write(mstr)
+        # return full_v2_path_for('sawyer_xyz/sawyer_brick_slide.xml')
+        return exenv
 
     @_assert_task_is_set
     def evaluate_state(self, obs, action):
@@ -102,26 +160,24 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
         return self.sim.data.get_body_xquat('top_link')
 
     def reset_model(self):
-        # print(self._get_state_rand_vec())
         self._reset_hand()
         self._target_pos = self.goal.copy()
-        self.obj_init_pos = self.init_config['obj_init_pos']
+        self.obj_init_pos = np.array(self.init_config['obj_init_pos'])
         self.obj_init_angle = self.init_config['obj_init_angle']
-        box_height = self.get_body_com('boxbody')[2]
 
-        if self.random_init:
-            goal_pos = self._get_state_rand_vec()
-            # while np.linalg.norm(goal_pos[:2] - goal_pos[-3:-1]) < 0.25:
-            #     goal_pos = self._get_state_rand_vec()
-            self.obj_init_pos = np.concatenate((goal_pos[:2], [self.obj_init_pos[-1]])).copy()
-            self._target_pos = goal_pos[-3:].copy()
-            # print("RANDOM INIT")
+        # if self.random_init:
+        #     goal_pos = self._get_state_rand_vec()
+        #     print("GOAL_POS", goal_pos, self._freeze_rand_vec)
+        #     print(goal_pos[:2] - self._target_pos[:2])
+        #     self._target_pos = goal_pos[3:]
+        #     while np.linalg.norm(goal_pos[:2] - self._target_pos[:2]) < 0.15:
+        #         goal_pos = self._get_state_rand_vec()
+        #         self._target_pos = goal_pos[3:]
+        #     self._target_pos = np.concatenate((goal_pos[-3:-1], [self.obj_init_pos[-1]]))
+        #     self.obj_init_pos = np.concatenate((goal_pos[:2], [self.obj_init_pos[-1]]))
 
-        # print("INIT", np.concatenate((self.obj_init_pos[:2], [box_height])))
-        # self.sim.model.body_pos[self.model.body_name2id('boxbody')] = np.array([0.0, 0.7, 0.02])
-        self.sim.model.body_pos[self.model.body_name2id('top_link')] = np.array(
-            [0.0, 0.7, 2.0]
-        )
+        # self._set_obj_xyz(self.obj_init_pos)
+        
         # self._set_obj_xyz(self.obj_init_pos)
         # self._target_pos[1] -= 0.20
 
@@ -200,8 +256,8 @@ class SawyerBrickSlideEnvV2(SawyerXYZEnv):
         
         if height > 0.14:
             self.threshold = True
-        success = (height < 0.093 and height > 0.083) and self.threshold and (abs(self.last_height - height) < 0.00003)
-        print("HEIGHT", obs[6], "LST_HEIGHT", self.last_height, "\tTHRESHOLD", self.threshold, )
+        success = (height < 0.093 and height > 0.073) and self.threshold and (abs(self.last_height - height) < 0.00003)
+        # print("HEIGHT", obs[6], "LST_HEIGHT", self.last_height, "\tTHRESHOLD", self.threshold, )
         # print(success)
         if success:
             reward = 10.0
