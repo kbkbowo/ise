@@ -1,0 +1,4600 @@
+[
+    {
+        "task": "open_box",
+        "seed": 1000,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1001,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1002,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1003,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1004,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1005,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 212
+    },
+    {
+        "task": "open_box",
+        "seed": 1006,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1007,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1008,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1009,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1010,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1011,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1012,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1013,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1014,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1015,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1016,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1017,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1018,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1019,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1020,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1021,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1022,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1023,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1024,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1025,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1026,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1027,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1028,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1029,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1030,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1031,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1032,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1033,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1034,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1035,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1036,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1037,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1038,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1039,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1040,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1041,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1042,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1043,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1044,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1045,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1046,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1047,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1048,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1049,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1050,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1051,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 211
+    },
+    {
+        "task": "open_box",
+        "seed": 1052,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1053,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1054,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1055,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1056,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1057,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1058,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1059,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1060,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1061,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 212
+    },
+    {
+        "task": "open_box",
+        "seed": 1062,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1063,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1064,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1065,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1066,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1067,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 221
+    },
+    {
+        "task": "open_box",
+        "seed": 1068,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "open_box",
+        "seed": 1069,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1070,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1071,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1072,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1073,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1074,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1075,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1076,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "open_box",
+        "seed": 1077,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1078,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1079,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1080,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1081,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1082,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1083,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1084,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1085,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1086,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1087,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1088,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1089,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1090,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1091,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1092,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1093,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1094,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1095,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1096,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1097,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1098,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1099,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1100,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1101,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1102,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1103,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1104,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1105,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1106,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1107,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1108,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1109,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1110,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1111,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1112,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1113,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "open_box",
+        "seed": 1114,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1115,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1116,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1117,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1118,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1119,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1120,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1121,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1122,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1123,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1124,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1125,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1126,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1127,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1128,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1129,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1130,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1131,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1132,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1133,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1134,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1135,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1136,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1137,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1138,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1139,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1140,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1141,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1142,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1143,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1144,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1145,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1146,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 221
+    },
+    {
+        "task": "open_box",
+        "seed": 1147,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 212
+    },
+    {
+        "task": "open_box",
+        "seed": 1148,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1149,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1150,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1151,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1152,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1153,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1154,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1155,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1156,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1157,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1158,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1159,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1160,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1161,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1162,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1163,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1164,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1165,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1166,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1167,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1168,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1169,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1170,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1171,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1172,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1173,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1174,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1175,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1176,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1177,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1178,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1179,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1180,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1181,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1182,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1183,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1184,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1185,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1186,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1187,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1188,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1189,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1190,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1191,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1192,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1193,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1194,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1195,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1196,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1197,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1198,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1199,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1200,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1201,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1202,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1203,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1204,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1205,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1206,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1207,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1208,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1209,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1210,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1211,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "open_box",
+        "seed": 1212,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1213,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1214,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1215,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1216,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1217,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1218,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1219,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1220,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1221,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1222,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1223,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1224,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1225,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1226,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1227,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1228,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1229,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1230,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1231,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1232,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1233,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1234,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1235,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 221
+    },
+    {
+        "task": "open_box",
+        "seed": 1236,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1237,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1238,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1239,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1240,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1241,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1242,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1243,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1244,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1245,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1246,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1247,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1248,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1249,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1250,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1251,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1252,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1253,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1254,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1255,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1256,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1257,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1258,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1259,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1260,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1261,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1262,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1263,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1264,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1265,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1266,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1267,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1268,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1269,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1270,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1271,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1272,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1273,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1274,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1275,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1276,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1277,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1278,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1279,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1280,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1281,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1282,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1283,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1284,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1285,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1286,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1287,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1288,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1289,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1290,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1291,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1292,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1293,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1294,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1295,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1296,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1297,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1298,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1299,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1300,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1301,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1302,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1303,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1304,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1305,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1306,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1307,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1308,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1309,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1310,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1311,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1312,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1313,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1314,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1315,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1316,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1317,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1318,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1319,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1320,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1321,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1322,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1323,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1324,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 104
+    },
+    {
+        "task": "open_box",
+        "seed": 1325,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1326,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1327,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1328,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1329,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1330,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1331,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1332,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1333,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 212
+    },
+    {
+        "task": "open_box",
+        "seed": 1334,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1335,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1336,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1337,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1338,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1339,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1340,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1341,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1342,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1343,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1344,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1345,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1346,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 216
+    },
+    {
+        "task": "open_box",
+        "seed": 1347,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1348,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 97
+    },
+    {
+        "task": "open_box",
+        "seed": 1349,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1350,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1351,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1352,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1353,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1354,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1355,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1356,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1357,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1358,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1359,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1360,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1361,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1362,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1363,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1364,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1365,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1366,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1367,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1368,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 212
+    },
+    {
+        "task": "open_box",
+        "seed": 1369,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1370,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 213
+    },
+    {
+        "task": "open_box",
+        "seed": 1371,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1372,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1373,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1374,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1375,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1376,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1377,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1378,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1379,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1380,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1381,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1382,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 101
+    },
+    {
+        "task": "open_box",
+        "seed": 1383,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1384,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1385,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 98
+    },
+    {
+        "task": "open_box",
+        "seed": 1386,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 218
+    },
+    {
+        "task": "open_box",
+        "seed": 1387,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1388,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 96
+    },
+    {
+        "task": "open_box",
+        "seed": 1389,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    },
+    {
+        "task": "open_box",
+        "seed": 1390,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1391,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 211
+    },
+    {
+        "task": "open_box",
+        "seed": 1392,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 102
+    },
+    {
+        "task": "open_box",
+        "seed": 1393,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1394,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 103
+    },
+    {
+        "task": "open_box",
+        "seed": 1395,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 219
+    },
+    {
+        "task": "open_box",
+        "seed": 1396,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 215
+    },
+    {
+        "task": "open_box",
+        "seed": 1397,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 99
+    },
+    {
+        "task": "open_box",
+        "seed": 1398,
+        "identity": "lift",
+        "success": true,
+        "trials": 0,
+        "pred_identity": [
+            "box-open-v2-goal-observable"
+        ],
+        "int_length": 100
+    },
+    {
+        "task": "open_box",
+        "seed": 1399,
+        "identity": "slide",
+        "success": true,
+        "trials": 1,
+        "pred_identity": [
+            "box-open-v2-goal-observable",
+            "box-slide-v2-goal-observable"
+        ],
+        "int_length": 214
+    }
+]
